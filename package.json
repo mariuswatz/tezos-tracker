@@ -1,0 +1,10 @@
+{
+  "name": "tezos-tracker",
+  "version": "0.1",
+  "main": "index.js",
+  "author": "Marius Watz <marius.watz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^16.6.0"
+  }
+}

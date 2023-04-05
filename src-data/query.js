@@ -14,6 +14,7 @@ export const QueryGetCreations = gql`
       minted_at
       name
       editions
+      burned_editions
       objkt_artist_collection_id
       royalties_total
       sales_count

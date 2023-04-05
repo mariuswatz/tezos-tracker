@@ -1,5 +1,6 @@
 const TEZTOK_API = 'https://api.teztok.com/v1/graphql'
 import { request, gql } from 'graphql-request'
+import { QueryGetCreations, getSales } from './query.js'
 import fs from 'fs'
 
 const TezosQuery = gql`
@@ -74,6 +75,7 @@ const QuerySales = gql`
         fa2_address
         token_id
         name
+        editions
       }
     }
   }
@@ -86,18 +88,43 @@ async function getTokens(tags, orderColumn, platform, limit) {
   })
 }
 
+async function getCreations() {
+  return await request(TEZTOK_API, QueryGetCreations, {
+    artistAddress: 'tz2NY3Fgt5QufrYGP1JKdvLKcWWt86sLsqrS',
+    // holderAddress: 'tz2NY3Fgt5QufrYGP1JKdvLKcWWt86sLsqrS',
+  })
+}
+
 async function getHoldings() {
   return await request(TEZTOK_API, QuerySales, {
     artistAddress: 'tz2NY3Fgt5QufrYGP1JKdvLKcWWt86sLsqrS',
   })
 }
 
-getTokens().then((response) => {
-  console.log('Success.')
-  fs.writeFileSync('tokens.json', JSON.stringify(response))
-})
+getCreations().then((response) => {
+  const createdCnt = response.tokens.length
+  console.log('QueryGetCreations - Success. ' + createdCnt + ' creations')
 
-getHoldings().then((response) => {
-  console.log('Success.')
-  fs.writeFileSync('sales.json', JSON.stringify(response))
+  fs.writeFileSync('output/creations.json', JSON.stringify(response))
+
+  const tokList = []
+  tokList.push(response.tokens[Math.floor(Math.random() * createdCnt)])
+  //   Object.keys(response.tokens).forEach((key) => {
+  //     if (tokList.length < 1) tokList.push(response.tokens[key])
+  //   })
+
+  //   console.log(tokList)
+  getSales(tokList).then((response) => {
+    console.log('QueryGetCreations - Success.')
+    fs.writeFileSync('output/getSales.json', JSON.stringify(response))
+  })
 })
+// getTokens().then((response) => {
+//   console.log('Success.')
+//   fs.writeFileSync('output/tokens.json', JSON.stringify(response))
+// })
+
+// getHoldings().then((response) => {
+//   console.log('Success.')
+//   fs.writeFileSync('output/sales.json', JSON.stringify(response))
+// })

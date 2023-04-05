@@ -1,0 +1,2744 @@
+{
+  "tokens": [
+    {
+      "token_id": "817394",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Isoland (Fortress of Solitude)",
+      "description": "Isoland models, 3000x4000px PNG, 2015 / 2023\n#HENiversary edition celebrating my first NFT minted on Hicetnunc March 28, 2021. \n\nIsoland is an unfinished project from 2015. Low-poly models were generated using isosurfaces and exported as 3D models. Rendered in Blender.",
+      "price": 24000000,
+      "minted_at": "2023-03-31T14:56:53+00:00",
+      "artifact_uri": "ipfs://QmWfNBYsHANQGKWKF8HQ9oChLKsDESMhpTgHxyo3aND5uq"
+    },
+    {
+      "token_id": "815330",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Re-Catenary03B 007+009",
+      "description": "5333×8000px PNG, 2013 and 2023, ed of 5 + 1 AP\n\n3D render of model from Catenary Madness series from 2013. Mesh geometry created using catenary curve simulation for connected surface.  \n\nRendered in Blender, exploiting mesh self-intersection as texturing effect.",
+      "price": 42000000,
+      "minted_at": "2023-03-14T11:36:29+00:00",
+      "artifact_uri": "ipfs://QmWMSqcRNiGannCMLbfDUoK2KtWV5jHsywsSBLwN5DhWEz"
+    },
+    {
+      "token_id": "815329",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Re-Catenary03B-03",
+      "description": "5375×8000px PNG, 2013 and 2023, ed of 5 + 1 AP\n\n3D render of model from Catenary Madness series from 2013. Mesh geometry created using catenary curve simulation for connected surface.\n\nRendered in Blender, exploiting mesh self-intersection as texturing effect.",
+      "price": 64000000,
+      "minted_at": "2023-03-14T11:28:59+00:00",
+      "artifact_uri": "ipfs://QmbbsHt531MG8A8qfUXTDureQYWxXgj8AVr83UBbtHfVGg"
+    },
+    {
+      "token_id": "28",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B05",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmdntdoFxwP63Z7TpXgeEverZuznudYPNkPVHtZHjjQUxo"
+    },
+    {
+      "token_id": "47",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B24",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmQTTXKXTWfrEcAW93p8R3oggPY1YtE6x614soKrkvMeQt"
+    },
+    {
+      "token_id": "44",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B21",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmTvLD5HrqGF5sqySspZqmNqBsLNoTa5KNuRLFj3gvrvjA"
+    },
+    {
+      "token_id": "33",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B10",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://Qme4c7J1mCw9Ejhpy8VP9ECgCZ5zrjFpvMYfFo1BC1XVyH"
+    },
+    {
+      "token_id": "36",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B13",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmUCBVJPrfPdtuTtZuZvngQ4N3QcfYBNqNVQSShfk6jW3x"
+    },
+    {
+      "token_id": "24",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B01",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmNu8qMwJdHYCfzTLTbdbDM6Hu1oQjX79oT4mAcqmrnHy1"
+    },
+    {
+      "token_id": "35",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B12",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmWCpwHWvEaqwQ3nbzEf3zGZ8CrhVXootsqxv7ruJbWjYw"
+    },
+    {
+      "token_id": "41",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B18",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmUAyyqfyNxk4Diw8CfAMotZR9wsKeTWj3U6RnT9HamtzV"
+    },
+    {
+      "token_id": "46",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B23",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmYvTX5qzvUZoSLBYyPrGRtjyJEpVumRERb8ewrA3oF4fC"
+    },
+    {
+      "token_id": "31",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B08",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmfYxW5Lun6gVHipUUbbScQiVQmVuHw8rpjxJXvk6xgx2Z"
+    },
+    {
+      "token_id": "38",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B15",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmQZa3MApJD119rjzpcW949u8tYYRoRcqsXWsZce4W2eWN"
+    },
+    {
+      "token_id": "43",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B20",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmXcy4bRtmXpbSRpZjU8U5kDAZERhTSYNvWR42pe7d7V2Y"
+    },
+    {
+      "token_id": "26",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B03",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmPtc7RY3Aa3CXsL6VNHDbjSK12vNqKmNTcPHmCMZziUhj"
+    },
+    {
+      "token_id": "29",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B06",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmPbT313E6XekE3mx2oJweUDmZahoNkuVSHagbuNQsTzui"
+    },
+    {
+      "token_id": "40",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B17",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmWk1gHLsVEoS7iBa8CfayaVu9qampmN91EtJuGAg3Na2R"
+    },
+    {
+      "token_id": "42",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B19",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmWzxRMBVNjasGcMj33Qf5C7hdthYLMF6bbEievg5Y5L9A"
+    },
+    {
+      "token_id": "39",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B16",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmV3cRGBBRNTFkvoqXjrjqwFPseEfArMJvCWWjbTfx5KHs"
+    },
+    {
+      "token_id": "34",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B11",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmWuBkqb21um8uBsHvJ5oLtZUtLWYpHAsGq6Xtjm7hBtM4"
+    },
+    {
+      "token_id": "45",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B22",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmUyxNPyNpDrRGZxrGFDRNJ4g336Q5KaoRmCdSdyCogHYx"
+    },
+    {
+      "token_id": "37",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B14",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmaMK56FvhEarHvPNq8GXZM9QcnnWV4PkbJnYJs7uun2hp"
+    },
+    {
+      "token_id": "25",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B02",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmNwuvSruu8stNdya9y2mSZHsF3LBgkGM3pnq5iBZFxTdn"
+    },
+    {
+      "token_id": "32",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B09",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmbiJpZgJJJepKtEmoGozCRfggugiiKSc6uW2hCYovnSo4"
+    },
+    {
+      "token_id": "27",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B04",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmY2NiLgNzyuXbMcqMyfmB4JXN36Pz21dhdnjudDyJrvfZ"
+    },
+    {
+      "token_id": "30",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-Up B07",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation and as a means of creating new visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T11:15:14+00:00",
+      "artifact_uri": "ipfs://QmNn3TQPpq8PBJ7kqmjfB6bko88pQ1wzpFmsDhU55thXVn"
+    },
+    {
+      "token_id": "14",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A15",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:58:14+00:00",
+      "artifact_uri": "ipfs://QmctJW3AGLaN13ZqpqeBLeiF8k7z4buzaqFpGr4UKcHSn2"
+    },
+    {
+      "token_id": "6",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A07",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:58:14+00:00",
+      "artifact_uri": "ipfs://QmQM1AbSJc1SeVerTsVPW3wXN4WnyZwZqn8Zuz8VY2hkj8"
+    },
+    {
+      "token_id": "15",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A16",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:58:14+00:00",
+      "artifact_uri": "ipfs://QmXNQMmnbLkjhTYJrkUu8dyshPooxGMCcsmVBLmExcBuxu"
+    },
+    {
+      "token_id": "12",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A13",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:58:14+00:00",
+      "artifact_uri": "ipfs://QmUz97UHE3ZaZ4VCiNi69ELZ4dvfjsCEYhiETphmKqA1zL"
+    },
+    {
+      "token_id": "23",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A24",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:58:14+00:00",
+      "artifact_uri": "ipfs://QmdMZp91ZoPxyyk6y5njiJnUYytpiqhLC2aySgDs5eTWZZ"
+    },
+    {
+      "token_id": "20",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A21",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:58:14+00:00",
+      "artifact_uri": "ipfs://QmUqeQmsnYWcoRdzVfTJfWBckmZoPVnmXNhkeeMeUETm7y"
+    },
+    {
+      "token_id": "9",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A10",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:58:14+00:00",
+      "artifact_uri": "ipfs://QmcXQfheDH5eXEAoovXzRPVDTZAQqqXBhN6KE8X5ide6vm"
+    },
+    {
+      "token_id": "7",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A08",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:58:14+00:00",
+      "artifact_uri": "ipfs://QmP8F7hvgDR5FQ2PYfgtzbcuiZMihYrXJiooBR9G7Ehpjz"
+    },
+    {
+      "token_id": "11",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A12",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:58:14+00:00",
+      "artifact_uri": "ipfs://QmZo4qinaWRFSVN7DBAfDaQhRJdexym1qJSboVSY3kMRNZ"
+    },
+    {
+      "token_id": "21",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A22",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:58:14+00:00",
+      "artifact_uri": "ipfs://QmUyioDuWVkRGpdHMNmrQScTTqytvH5s2FkaEV5tL6vso3"
+    },
+    {
+      "token_id": "19",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A20",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:58:14+00:00",
+      "artifact_uri": "ipfs://QmVoaCMkGoAVG74xffG12Vc2cJAbeJiN9t3mU98HGoc1jM"
+    },
+    {
+      "token_id": "8",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A09",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:58:14+00:00",
+      "artifact_uri": "ipfs://QmYmRrkNNBXweSzDWH7a7UGAJzTkEE54dRen3qaKh2JPXw"
+    },
+    {
+      "token_id": "17",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A18",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:58:14+00:00",
+      "artifact_uri": "ipfs://QmXodWFNLyo7Hba1vj4Suu9cxdNaVst5fuYmQnAfiWF29z"
+    },
+    {
+      "token_id": "22",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A23",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:58:14+00:00",
+      "artifact_uri": "ipfs://QmbQZrPqoP3qp9SEpert7hj7RWySqwgR5sT7iBXv6a3atW"
+    },
+    {
+      "token_id": "13",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A14",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:58:14+00:00",
+      "artifact_uri": "ipfs://QmRDxRqGdpi74UwXVoaw9qw94YaRGqmDfpbN1pCFCaUwj8"
+    },
+    {
+      "token_id": "18",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A19",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:58:14+00:00",
+      "artifact_uri": "ipfs://QmYA7pNKvMQaXYfysm6BCqE6R7RCSSfEkdwVeqmXNeCm2u"
+    },
+    {
+      "token_id": "10",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A11",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:58:14+00:00",
+      "artifact_uri": "ipfs://QmVSemG79N8BHdgwAQ9iJKmruq8suPHVK34BB4wT4ZcyUf"
+    },
+    {
+      "token_id": "16",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A17",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:58:14+00:00",
+      "artifact_uri": "ipfs://QmcwGZxiC2cdFDzoNsf7bURruQ4GwRim1LGxWVqa8bWFg5"
+    },
+    {
+      "token_id": "3",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A04",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:45:44+00:00",
+      "artifact_uri": "ipfs://QmT3FWsLPEBi6H43Rot3aZbU7myFfSmzS1JLvHMPixgRLi"
+    },
+    {
+      "token_id": "4",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A05",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:45:44+00:00",
+      "artifact_uri": "ipfs://QmfJQu6qjVk2FBEd7R9u29j41d9CTzcyKbtp7K4jhSCD4b"
+    },
+    {
+      "token_id": "0",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A01",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:45:44+00:00",
+      "artifact_uri": "ipfs://QmPAoVwfjjT865CLRYhvkKD6CWxRtmZqESnWB11AgJsjNG"
+    },
+    {
+      "token_id": "1",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A02",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:45:44+00:00",
+      "artifact_uri": "ipfs://QmQ4ycP3VFMR22PMxyaUjJJ4Un42kHDQLyS9jZkDKmnVPe"
+    },
+    {
+      "token_id": "5",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A06",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:45:44+00:00",
+      "artifact_uri": "ipfs://QmWqmAZdXAxJmLZMfKh7LPYVtggScVQrEFurN53GXrSjy7"
+    },
+    {
+      "token_id": "2",
+      "fa2_address": "KT1WkxqG81FfMgotZiWExsrQxQaTfgvDevsG",
+      "platform": "OBJKT",
+      "name": "Render Cut-up A03",
+      "description": "Render Cut-ups, 2023\nCollection of 48x 1/1s, 2666x4000px PNG\n\nCut-ups is a collection of excerpts (cropped details, extreme zooms) from ongoing sketches with 3D software (Blender). Working with generative geometric models that range from hard, architectural forms to organic surfaces, I use rendering as a way to \"photograph\" them - both in the sense of documentation as a means of creating visual compositions.\n\nCut-ups don't convey a sense of the actual composition, rather they are isolated details cut out of high-resolution images. This reflects the process of \"discovery\" through setting up (artificial) lights and cameras, geometries and textures -  only to be captivated by unexpected details and the in-between things. \n\nIt might be the optical delights of photorealistic rendering engines, used all wrong. Or finding glitches in my geometry, bad code that has produced faulty constructs that in the end turn out more interesting. Cut-ups is a collection of these visual moments.\n\nMarius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-26T10:45:44+00:00",
+      "artifact_uri": "ipfs://QmcHLTrZoX1guYWw5jf1RgczCtnSVdwd1tjzZonRYvqMhj"
+    },
+    {
+      "token_id": "811801",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "SpaceFiller01C-QuakeAid-A",
+      "description": "Render of experiments in space filling geometry. \n\nMinted for #tezquakeaid, with proceeds going to selected NGOs helping the victims of the February 2023 earthquakes in Turkey & Syria.",
+      "price": null,
+      "minted_at": "2023-02-12T13:57:14+00:00",
+      "artifact_uri": "ipfs://QmSGzkrV9ajqGwdZiaFQBQJ71kJ4kNgvQ7RDvKUoDi5b3J"
+    },
+    {
+      "token_id": "811799",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "SpaceFiller01C-QuakeAid-B",
+      "description": "Render of experiments in space filling geometry. \n\nMinted for #tezquakeaid, with proceeds going to selected NGOs helping the victims of the February 2023 earthquakes in Turkey & Syria.",
+      "price": 45000000,
+      "minted_at": "2023-02-12T13:53:14+00:00",
+      "artifact_uri": "ipfs://QmTe6UtdM2ygsPm3THU4XKBiesW9VVu7fFEwMqNTzutXie"
+    },
+    {
+      "token_id": "6",
+      "fa2_address": "KT1QcMLyqpZqQAc7UPRKaUF61HJdyhbFwvR5",
+      "platform": "OBJKT",
+      "name": "Geometry Dreams Z03 (Legowelt)",
+      "description": "Geometry Dreams is a series of experiments in perceptual space, a term used in architecture to describe how a space is experienced from a fixed viewpoint. It diverges from actual physical space, because perception can be manipulated by environmental factors.\n\nThe inspiration for this project comes from the many hours spent in 3D modeling software, editing complex geometries at a micro level. Zoomed in, there is a tendency to lose one's sense of the overall geometry. Local constellations of vertices and triangles present as microspaces in themselves, abstracted and broken up. \n\nUsing 3D models from my archives of generative sketches, Geometry Dreams are rendered snapshots of such accidental spaces. Color manipulated to further enhance the sense of perceptual space, depth cues of lights and shading are sometimes distorted until the image becomes a color field. Other images, more true to their origin as rendering, depict structures with an aesthetic that might be described as \"Algo Brutalism\".\n\n2023, 4500x6000px PNG, Marius Watz @mariuswatz",
+      "price": 24000000,
+      "minted_at": "2023-02-03T10:52:14+00:00",
+      "artifact_uri": "ipfs://QmP4z8JGBPGzpN1bPr2Z74Z1e1N9neAhNZY6gxB6ZTyaFL"
+    },
+    {
+      "token_id": "5",
+      "fa2_address": "KT1QcMLyqpZqQAc7UPRKaUF61HJdyhbFwvR5",
+      "platform": "OBJKT",
+      "name": "Geometry Dreams Z03 (Legowelt)",
+      "description": "Geometry Dreams is a series of experiments in perceptual space, a term used in architecture to describe how a space is experienced from a fixed viewpoint. It diverges from actual physical space, because perception can be manipulated by environmental factors.\n\nThe inspiration for this project comes from the many hours spent in 3D modeling software, editing complex geometries at a micro level. Zoomed in, there is a tendency to lose one's sense of the overall geometry. Local constellations of vertices and triangles present as microspaces in themselves, abstracted and broken up. \n\nUsing 3D models from my archives of generative sketches, Geometry Dreams are rendered snapshots of such accidental spaces. Color manipulated to further enhance the sense of perceptual space, depth cues of lights and shading are sometimes distorted until the image becomes a color field. Other images, more true to their origin as rendering, depict structures with an aesthetic that might be described as \"Algo Brutalism\".\n\n2023, 4500x6000px PNG, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2023-02-03T10:21:44+00:00",
+      "artifact_uri": "ipfs://QmTVDSa8UqPJwT372ucEhtWHDYTNorjwatmGqzhKELDGLz"
+    },
+    {
+      "token_id": "4",
+      "fa2_address": "KT1QcMLyqpZqQAc7UPRKaUF61HJdyhbFwvR5",
+      "platform": "OBJKT",
+      "name": "Geometry Dreams B02 (Liminal Lime)",
+      "description": "2023, 6000x8000px PNG, Marius Watz @mariuswatz\n\nGeometry Dreams is a series of experiments in perceptual space, a term used in architecture to describe how a space is experienced from a fixed viewpoint. It diverges from actual physical space, because perception can be manipulated by environmental factors.\n\nThe inspiration for this project comes from the many hours spent in 3D modeling software, editing complex geometries at a micro level. Zoomed in, there is a tendency to lose one's sense of the overall geometry. Local constellations of vertices and triangles present as microspaces in themselves, abstracted and broken up. \n\nUsing 3D models from my archives of generative sketches, Geometry Dreams are rendered snapshots of such accidental spaces. Color manipulated to further enhance the sense of perceptual space, depth cues of lights and shading are sometimes distorted until the image becomes a color field. Other images, more true to their origin as rendering, depict structures with an aesthetic that might be described as \"Algo Brutalism\".",
+      "price": 32000000,
+      "minted_at": "2023-01-31T10:19:59+00:00",
+      "artifact_uri": "ipfs://QmU4RSYbL73wuG1RRrDBtJ75jr2aisaTGDeZRCDYYEStoJ"
+    },
+    {
+      "token_id": "31835",
+      "fa2_address": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "platform": "VERSUM",
+      "name": "Expl01A 0001-02-ITEM4ITEM2",
+      "description": "Sketch. False color render for #item4item2, January 2023. Marius Watz @mariuswatz\n2000x2000px PNG, 1 edition per wallet.",
+      "price": 989000,
+      "minted_at": "2023-01-21T15:07:29+00:00",
+      "artifact_uri": "ipfs://bafybeicez6gagpmdyurseymvymadlbuk3mospcvrbcm47t6uzolozphn2q"
+    },
+    {
+      "token_id": "31833",
+      "fa2_address": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "platform": "VERSUM",
+      "name": "Expl01A 0001-01-ITEM4ITEM2",
+      "description": "Sketch. False color render for #item4item2, January 2023. Marius Watz @mariuswatz\n2000x2000px PNG, 1 edition per wallet.",
+      "price": 3300000,
+      "minted_at": "2023-01-21T14:24:59+00:00",
+      "artifact_uri": "ipfs://bafybeicpbpdz634adgetb4mtg2qqoai7rse5jio6g3ky56mvqxkhsdejoe"
+    },
+    {
+      "token_id": "3",
+      "fa2_address": "KT1QcMLyqpZqQAc7UPRKaUF61HJdyhbFwvR5",
+      "platform": "OBJKT",
+      "name": "Geometry Dreams Z02 (Cupcake Exploder)",
+      "description": "Geometry Dreams is a series of experiments in perceptual space, a term used in architecture to describe how a space is experienced from a fixed viewpoint. It diverges from actual physical space, because perception can be manipulated by environmental factors.\n\nThe inspiration for this project comes from the many hours spent in 3D modeling software, editing complex geometries at a micro level. Zoomed in, there is a tendency to lose one's sense of the overall geometry. Local constellations of vertices and triangles present as microspaces in themselves, abstracted and broken up. \n\nUsing 3D models from my archives of generative sketches, Geometry Dreams are rendered snapshots of such accidental spaces. Color manipulated to further enhance the sense of perceptual space, depth cues of lights and shading are sometimes distorted until the image becomes a color field. Other images, more true to their origin as rendering, depict structures with an aesthetic that might be described as \"Algo Brutalism\".\n\n2023, 3600x4800px PNG, Marius Watz @mariuswatz",
+      "price": 24000000,
+      "minted_at": "2023-01-15T10:01:59+00:00",
+      "artifact_uri": "ipfs://QmRfxUCQ6YwAWjBrqaLnBdBkYZkYjKBYZbc9k2wdhN5EAS"
+    },
+    {
+      "token_id": "31453",
+      "fa2_address": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "platform": "VERSUM",
+      "name": "False SpaceFiller 01C (Red Velvet NYE)",
+      "description": "False colored render of Space Filler 01C, an experiment in 3D model construction using space filling modules. Minted as a giveaway to friends and collectors at the end of 2022, a very eventful year, indeed.\n\n2022, 4500x6000px PNG, Marius Watz @mariuswatz",
+      "price": 444000000,
+      "minted_at": "2022-12-31T14:38:29+00:00",
+      "artifact_uri": "ipfs://bafybeigzagh2rypptfcqcg25a3tys4v3v6jcnrg6mazrvgxy47xghwpgna"
+    },
+    {
+      "token_id": "801438",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Object #3 (sliced)",
+      "description": "Sliced contour vector rendering of Object #3, a 3D printed microsculpture created using a generative system. Plottable SVG.\n2007 / 2013, SVG, Marius Watz @mariuswatz",
+      "price": 24000000,
+      "minted_at": "2022-12-15T07:46:44+00:00",
+      "artifact_uri": "ipfs://QmaqEgXJsshhQAPAmhziZzhvzuQmJtL4aw28zQim2ZiXTQ"
+    },
+    {
+      "token_id": "801352",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Object #2 (sliced)",
+      "description": "Sliced contour vector rendering of Object #2, a 3D printed microsculpture created using a generative system. Plottable SVG.\n2007 / 2013, SVG, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-12-14T22:30:14+00:00",
+      "artifact_uri": "ipfs://QmaqEgXJsshhQAPAmhziZzhvzuQmJtL4aw28zQim2ZiXTQ"
+    },
+    {
+      "token_id": "2",
+      "fa2_address": "KT1QcMLyqpZqQAc7UPRKaUF61HJdyhbFwvR5",
+      "platform": "OBJKT",
+      "name": "Geometry Dreams Z01 (Tropical Adventure)",
+      "description": "Geometry Dreams is a series of experiments in perceptual space, a term used in architecture to describe how a space is experienced from a fixed viewpoint. It diverges from actual physical space, because perception can be manipulated by environmental factors.\n\nThe inspiration for this project comes from the many hours spent in 3D modeling software, editing complex geometries at a micro level. Zoomed in, there is a tendency to lose one's sense of the overall geometry. Local constellations of vertices and triangles present as micro-spaces in themselves, abstracted and broken up. \n\nUsing 3D models from my archives of generative sketches, Geometry Dreams are rendered snapshots of such accidental spaces. Color manipulated to further enhance the sense of perceptual space, depth cues of lights and shading are sometimes distorted until the image becomes a color field. Other images, more true to their origin as rendering, depict structures with an aesthetic that might be described as \"Algo Brutalism\".\n\n2022, 3600x4800px PNG, Marius Watz @mariuswatz",
+      "price": 24000000,
+      "minted_at": "2022-12-08T22:53:44+00:00",
+      "artifact_uri": "ipfs://QmXPhFqxgsLD8T64h9pi6RgQmsobtoaZABLh2gpi8BFR7j"
+    },
+    {
+      "token_id": "1",
+      "fa2_address": "KT1QcMLyqpZqQAc7UPRKaUF61HJdyhbFwvR5",
+      "platform": "OBJKT",
+      "name": "Geometry Dreams A01 (Heat Death)",
+      "description": "Geometry Dreams is a series of experiments in perceptual space, a term used in architecture to describe how a space is experienced from a fixed viewpoint. It diverges from actual physical space, because perception can be manipulated by environmental factors.\n\nThe inspiration for this project comes from the many hours spent in 3D modeling software, editing complex geometries at a micro level. Zoomed in, there is a tendency to lose one's sense of the overall geometry. Local constellations of vertices and triangles present as microspaces in themselves, abstracted and broken up. \n\nUsing 3D models from my archives of generative sketches, Geometry Dreams are rendered snapshots of such accidental spaces. Color manipulated to further enhance the sense of perceptual space, depth cues of lights and shading are sometimes distorted until the image becomes a color field. Other images depict structures with an aesthetic that might be described as \"Algo Brutalism\".\n\n Marius Watz @mariuswatz",
+      "price": 80000000,
+      "minted_at": "2022-12-07T20:57:59+00:00",
+      "artifact_uri": "ipfs://QmSF1pjm9JKMREceuMZvRNKXf8FCm7TU3shWqLvuuzQCJP"
+    },
+    {
+      "token_id": "0",
+      "fa2_address": "KT1QcMLyqpZqQAc7UPRKaUF61HJdyhbFwvR5",
+      "platform": "OBJKT",
+      "name": "Geometry Dreams B01 (Exploding Neon)",
+      "description": "Geometry Dreams is a series of experiments in perceptual space, a term used in architecture to describe how a space is experienced from a fixed viewpoint. It diverges from actual physical space, because perception can be manipulated by environmental factors.\n\nThe inspiration for this project comes from the many hours spent in 3D modeling software, editing complex geometries at a micro level. Zoomed in, there is a tendency to lose one's sense of the overall geometry. Local constellations of vertices and triangles present as microspaces in themselves, abstracted and broken up. \n\nUsing 3D models from my archives of generative sketches, Geometry Dreams are rendered snapshots of such accidental spaces. Color manipulated to further enhance the sense of perceptual space, depth cues of lights and shading are sometimes distorted until the image becomes a color field. Other images depict structures with an aesthetic that might be described as \"Algo Brutalism\".\n\n2022, 3600x4800px PNG, Marius Watz @mariuswatz",
+      "price": 32000000,
+      "minted_at": "2022-12-07T20:44:29+00:00",
+      "artifact_uri": "ipfs://QmV3dAuyD3n3mAWVkD3P33i5KtQnXFxej9d7jTvHmphKXn"
+    },
+    {
+      "token_id": "795499",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "False Isoland009-RIPHEN",
+      "description": "False colored remix of 2015 sketch render for Isoland, an unrealized project. Minted for #RIPHEN event, Nov 2022 as a nod to other Isoland sketches minted for HEN events.\n\nPNG, 5333x3000px, 2015-2022",
+      "price": 50000000,
+      "minted_at": "2022-11-14T10:54:44+00:00",
+      "artifact_uri": "ipfs://QmRZpNAqCji8TXrYrp5TUMonzfaKs9pt4KfD3QfVEv4HQ8"
+    },
+    {
+      "token_id": "9",
+      "fa2_address": "KT1G9Js2cyWq9FQwcmSh77sJhUnTDLAYsGJq",
+      "platform": "OBJKT",
+      "name": "Pop DefCol 02-0031C-04",
+      "description": "2022, 3780x6720px PNG, 1/1\n\nPop DefCol is an experiment in optical maximalism, surreal snapshots of organic sculptural forms that combine 3D rendering with false color post-processing to go beyond simple photorealism. \n\nThe series investigates a set of strange geometries, sometimes smooth, sometimes torn and glitchy. Using a custom software to deform and warp the triangle meshes commonly used in 3D modeling, Watz is playing with our established expectations that computer graphics should strive to emulate natural forms and \"perfect\" surfaces.",
+      "price": null,
+      "minted_at": "2022-10-31T14:16:44+00:00",
+      "artifact_uri": "ipfs://QmWavdXibLr8QeN3Kp4JG21oY3bhiAfU5UzihSKSdRwFcq"
+    },
+    {
+      "token_id": "30366",
+      "fa2_address": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "platform": "VERSUM",
+      "name": "Catenary Brutalism 16",
+      "description": "Experiments from the Catenary Madness series, 2013. Surface generated with textile simulation and rendered with low polygon count to produce a hard-edged vector space.\n\n4000x4000px PNG, edition of 16\n2013, Marius Watz @mariuswatz",
+      "price": 20000000,
+      "minted_at": "2022-10-26T11:02:59+00:00",
+      "artifact_uri": "ipfs://bafybeih4ovldmtbine7m7ihksyba2vspre6cgi5qx57f7jgy276tzbhwyy"
+    },
+    {
+      "token_id": "30365",
+      "fa2_address": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "platform": "VERSUM",
+      "name": "Catenary Brutalism 11",
+      "description": "Experiments from the Catenary Madness series, 2013. Surface generated with textile simulation and rendered with low polygon count to produce a hard-edged vector space,\n\n4000x4000px PNG, edition of 16\n2013, Marius Watz @mariuswatz",
+      "price": 20000000,
+      "minted_at": "2022-10-26T11:00:29+00:00",
+      "artifact_uri": "ipfs://bafybeicmsrlx64fswgpev2qvugjd4sqvcnm2xdcvb24wvdauselo2mtt2m"
+    },
+    {
+      "token_id": "30352",
+      "fa2_address": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "platform": "VERSUM",
+      "name": "Catenary Brutalism 12",
+      "description": "Experiments from the Catenary Madness series, 2013. Surface generated with textile simulation and rendered with low polygon count to produce a hard-edged vector space,\n\n4000x4000px PNG, edition of 16\n2013, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-10-25T21:09:44+00:00",
+      "artifact_uri": "ipfs://bafybeieh3d3q3dpaxcc75aqob322holjppwnpk4asdrv6wop7f7kuc5l74"
+    },
+    {
+      "token_id": "30351",
+      "fa2_address": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "platform": "VERSUM",
+      "name": "Catenary Brutalism 03",
+      "description": "Experiments from the Catenary Madness series, 2013. Surface generated with textile simulation and rendered with low polygon count to produce a hard-edged vector space, \n\n4000x4000px PNG, edition of 16",
+      "price": 20000000,
+      "minted_at": "2022-10-25T21:05:14+00:00",
+      "artifact_uri": "ipfs://bafybeigvlprusvnwjm7rluwnqh6oyj5lln4miqtrwrvvaaaauuuugbeuyy"
+    },
+    {
+      "token_id": "15",
+      "fa2_address": "KT1WjjY7H3N1knUN965UAcrLZCwHA3PQkdXk",
+      "platform": "OBJKT",
+      "name": "BPattern MMXI-I",
+      "description": "BPattern is a series of generative compositions based on semi-automated layering and coloring of images generated with cellular automata.\n\nThe MMXI variants are a reference to the 2011 origin of the project as a textile pattern generator. These will be airdropped to collectors of the A and B variants.",
+      "price": null,
+      "minted_at": "2022-10-07T13:57:14+00:00",
+      "artifact_uri": "ipfs://Qme7SVw37de3Ht5DUVtPuQG5mxhh1vFc9dsjVAL1snnFaY"
+    },
+    {
+      "token_id": "14",
+      "fa2_address": "KT1WjjY7H3N1knUN965UAcrLZCwHA3PQkdXk",
+      "platform": "OBJKT",
+      "name": "BPattern MMXI-III",
+      "description": "BPattern is a series of generative compositions based on semi-automated layering and coloring of images generated with cellular automata.\n\nThe MMXI variants are a reference to the 2011 origin of the project as a textile pattern generator. These will be airdropped to collectors of the A and B variants.\n\nPNG, 3000x2000px, 2011-2022",
+      "price": null,
+      "minted_at": "2022-10-07T13:09:14+00:00",
+      "artifact_uri": "ipfs://QmV1mBXKkzSK6PMy15755RHhYvYTpSyzxzcN55eCkYCreW"
+    },
+    {
+      "token_id": "13",
+      "fa2_address": "KT1WjjY7H3N1knUN965UAcrLZCwHA3PQkdXk",
+      "platform": "OBJKT",
+      "name": "BPattern MMXI-II",
+      "description": "BPattern is a series of generative compositions based on semi-automated layering and coloring of images generated with cellular automata.\n\nThe MMXI variants are a reference to the 2011 origin of the project as a textile pattern generator. These will be airdropped to collectors of the A and B variants.\n\nPNG, 3000x2000px, 2011-2022",
+      "price": null,
+      "minted_at": "2022-10-06T12:43:59+00:00",
+      "artifact_uri": "ipfs://QmXHzd8GF85KdTH2FLRGvWVnfmEgCifMnkJ9vdZUQAU6JT"
+    },
+    {
+      "token_id": "12",
+      "fa2_address": "KT1WjjY7H3N1knUN965UAcrLZCwHA3PQkdXk",
+      "platform": "OBJKT",
+      "name": "BPattern MMXI-II",
+      "description": "BPattern is a series of generative compositions based on semi-automated layering and coloring of images generated with cellular automata. \n\nThe MMXI variants are a reference to the 2011 origin of the project as a textile pattern generator. These will be airdropped to collectors of the A and B variants.\n\nPNG, 3000x2000px, 2011-2022",
+      "price": null,
+      "minted_at": "2022-10-06T11:51:44+00:00",
+      "artifact_uri": "ipfs://Qme7SVw37de3Ht5DUVtPuQG5mxhh1vFc9dsjVAL1snnFaY"
+    },
+    {
+      "token_id": "11",
+      "fa2_address": "KT1WjjY7H3N1knUN965UAcrLZCwHA3PQkdXk",
+      "platform": "OBJKT",
+      "name": "BPattern A004",
+      "description": "BPattern is a series of generative compositions based on semi-automated layering and coloring of images generated with cellular automata, exploring pixelation as a pattern-making device.\nPNG, 3240x5760px\n\n2022, Marius Watz @mariuswatz",
+      "price": 30000000,
+      "minted_at": "2022-10-06T09:46:44+00:00",
+      "artifact_uri": "ipfs://QmVkBng7DYMocQfHezH2dHaKZLEkEZe95xN3KHyGk5NCTq"
+    },
+    {
+      "token_id": "785046",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "HEN UHarmonics 012B",
+      "description": "Sketch, generative geometry based on spherical harmonics. 4000x4000px PNG, edition created for collectors of #HENreunion UHarmonics, September 2022.\n2012-2022, Marius Watz @mariuswatz",
+      "price": 8000000,
+      "minted_at": "2022-10-03T10:02:59+00:00",
+      "artifact_uri": "ipfs://QmNhywsk9wgiAX4kT1Fhe2R89GXi9krtCzgQaVdv5CFK8Z"
+    },
+    {
+      "token_id": "784241",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "UHarmonics 002",
+      "description": "Sketch, generative geometry based on spherical harmonics. 4000x4000px PNG, edition of 100 created for #HENreunion, September 2022.\n2012-2022, Marius Watz @mariuswatz",
+      "price": 61000000,
+      "minted_at": "2022-10-01T19:45:44+00:00",
+      "artifact_uri": "ipfs://QmWnxxezGm187HxaNELSRBqRoejCbXGxKLhnED7yWsPBq1"
+    },
+    {
+      "token_id": "783912",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "UHarmonics 018B",
+      "description": "Sketch, generative geometry based on spherical harmonics. 4000x4000px PNG, edition of 100 created for #HENreunion, September 2022.\n2012-2022, Marius Watz @mariuswatz",
+      "price": 69000000,
+      "minted_at": "2022-10-01T09:30:44+00:00",
+      "artifact_uri": "ipfs://QmbUyjy41n4wV7gtn2JoDZ18tuVmRbcazNB8aDv6YenYgH"
+    },
+    {
+      "token_id": "10",
+      "fa2_address": "KT1WjjY7H3N1knUN965UAcrLZCwHA3PQkdXk",
+      "platform": "OBJKT",
+      "name": "BPattern B002 B",
+      "description": "BPattern is a series of generative compositions based on semi-automated layering and coloring of images generated with cellular automata, exploring pixelation as a pattern-making device. The B series are 1/1 pieces, sometimes parts of a larger image.\n\nPNG, 3240x5760px\n2022, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-09-22T05:31:29+00:00",
+      "artifact_uri": "ipfs://QmQuv8SphFz9hqLNiwP9prahLnMZh3pwhJYk4Ec74E8gxF"
+    },
+    {
+      "token_id": "9",
+      "fa2_address": "KT1WjjY7H3N1knUN965UAcrLZCwHA3PQkdXk",
+      "platform": "OBJKT",
+      "name": "BPattern B0002 A",
+      "description": "BPattern is a series of generative compositions based on semi-automated layering and coloring of images generated with cellular automata, exploring pixelation as a pattern-making device. The B series are 1/1 pieces, sometimes parts of a larger image.\n\nPNG, 3240x5760px\n2022, Marius Watz @mariuswatz",
+      "price": 120000000,
+      "minted_at": "2022-09-22T05:29:29+00:00",
+      "artifact_uri": "ipfs://QmcCVZa4CpgTTdSpHgE9XUHDfjpJ97uc9o32pAcbDUvwfM"
+    },
+    {
+      "token_id": "8",
+      "fa2_address": "KT1WjjY7H3N1knUN965UAcrLZCwHA3PQkdXk",
+      "platform": "OBJKT",
+      "name": "BPattern B001",
+      "description": "BPattern is a series of generative compositions based on semi-automated layering and coloring of images generated with cellular automata, exploring pixelation as a pattern-making device. The B series are 1/1 pieces, sometimes parts of a larger image.\n\nPNG, 3240x5760px\n2022, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-09-14T19:20:29+00:00",
+      "artifact_uri": "ipfs://QmU4Knkh1Hfs6moG3Fmie1oW4eA1GCJKSd6ufSnofZzZfc"
+    },
+    {
+      "token_id": "7",
+      "fa2_address": "KT1WjjY7H3N1knUN965UAcrLZCwHA3PQkdXk",
+      "platform": "OBJKT",
+      "name": "BPattern B000 A",
+      "description": "BPattern is a series of generative compositions based on semi-automated layering and coloring of images generated with cellular automata, exploring pixelation as a pattern-making device. The B series are 1/1 pieces, sometimes parts of a larger image.\n\nPNG, 3240x5760px\n2022, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-09-14T19:14:59+00:00",
+      "artifact_uri": "ipfs://QmQwCpQ2o1jmSDgLPXrrdZ6khzWEEnAeRCiUgQyayG45Zp"
+    },
+    {
+      "token_id": "6",
+      "fa2_address": "KT1WjjY7H3N1knUN965UAcrLZCwHA3PQkdXk",
+      "platform": "OBJKT",
+      "name": "BPattern B000 B",
+      "description": "BPattern is a series of generative compositions based on semi-automated layering and coloring of images generated with cellular automata, exploring pixelation as a pattern-making device. The B series are 1/1 pieces, sometimes parts of a larger image.\n\nPNG, 3240x5760px\n2022, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-09-14T19:10:59+00:00",
+      "artifact_uri": "ipfs://QmaLpspBTZLSvm4HfaUeKSAqW9qESHYYf3ZMG6zyZZbXhP"
+    },
+    {
+      "token_id": "5",
+      "fa2_address": "KT1WjjY7H3N1knUN965UAcrLZCwHA3PQkdXk",
+      "platform": "OBJKT",
+      "name": "BPattern A003",
+      "description": "BPattern is a series of generative compositions based on semi-automated layering and coloring of images generated with cellular automata, exploring pixelation as a pattern-making device.\nPNG, 3240x5760px\n\n2022, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-09-07T20:47:14+00:00",
+      "artifact_uri": "ipfs://QmXDr8qgcYPMvZHyXhyhKKY3Mr8uELtadYi6succmixyMt"
+    },
+    {
+      "token_id": "4",
+      "fa2_address": "KT1WjjY7H3N1knUN965UAcrLZCwHA3PQkdXk",
+      "platform": "OBJKT",
+      "name": "BPattern A002",
+      "description": "BPattern is a series of generative compositions based on semi-automated layering and coloring of images generated with cellular automata, exploring pixelation as a pattern-making device. \nPNG, 3240x5760px\n\n2022, Marius Watz @mariuswatz\nPNG, 3240x5760px. 2022, Marius Watz @mariuswatz",
+      "price": 30000000,
+      "minted_at": "2022-09-07T13:07:29+00:00",
+      "artifact_uri": "ipfs://QmSYVNhDkQiSaLP43YRpXYcMqVRrZR3JxBf7oDwwAzwVPU"
+    },
+    {
+      "token_id": "3",
+      "fa2_address": "KT1WjjY7H3N1knUN965UAcrLZCwHA3PQkdXk",
+      "platform": "OBJKT",
+      "name": "BPattern A001",
+      "description": "BPattern is a series of generative compositions based on semi-automated layering and coloring of images generated with cellular automata, exploring pixelation as a pattern-making device. \nPNG, 3240x5760px\n\n2022, Marius Watz @mariuswatz\nPNG, 3240x5760px. 2022, Marius Watz @mariuswatz",
+      "price": 30000000,
+      "minted_at": "2022-09-07T10:10:59+00:00",
+      "artifact_uri": "ipfs://QmSJV9DTuQNPu2NLmSAmzLjiXSGUQnVN2gFQZjXvs2JEVV"
+    },
+    {
+      "token_id": "2",
+      "fa2_address": "KT1WjjY7H3N1knUN965UAcrLZCwHA3PQkdXk",
+      "platform": "OBJKT",
+      "name": "BPattern A000",
+      "description": "BPattern is a series of generative compositions based on semi-automated layering and coloring of images generated with cellular automata, exploring pixelation as a pattern-making device.\nPNG, 3240x5760px\n\n2022, Marius Watz @mariuswatz",
+      "price": 30000000,
+      "minted_at": "2022-09-07T09:42:29+00:00",
+      "artifact_uri": "ipfs://Qmcnz3UStPAetyCJ5srqUZw4ZZotjo8CbKWegoffEFfUZr"
+    },
+    {
+      "token_id": "1",
+      "fa2_address": "KT1WjjY7H3N1knUN965UAcrLZCwHA3PQkdXk",
+      "platform": "OBJKT",
+      "name": "BPattern Mono 02",
+      "description": "Monochrome. BPattern is a series of generative compositions based on semi-automated layering and coloring of images generated with cellular automata, exploring pixelation as a pattern-making device. \nPNG, 3240x5760px\n\n2022, Marius Watz @mariuswatz\nPNG, 3240x5760px. 2022, Marius Watz @mariuswatz",
+      "price": 50000000,
+      "minted_at": "2022-09-02T10:04:44+00:00",
+      "artifact_uri": "ipfs://QmSw75rQSWwoBL8ncJne4K6GMb8Q9TZuGE1Fkyx9fjd6B4"
+    },
+    {
+      "token_id": "0",
+      "fa2_address": "KT1WjjY7H3N1knUN965UAcrLZCwHA3PQkdXk",
+      "platform": "OBJKT",
+      "name": "BPattern Mono 01",
+      "description": "Monochrome. BPattern is a series of generative compositions based on semi-automated layering and coloring of images generated with cellular automata, exploring pixelation as a pattern-making device. \nPNG, 3240x5760px\n\n2022, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-09-02T10:02:14+00:00",
+      "artifact_uri": "ipfs://Qmb53YD2hQ4uUFcin52ejpuCxgtSeaW1Hjz1n7XCrsKzm7"
+    },
+    {
+      "token_id": "771525",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Conical 0019",
+      "description": "Visual distortion field, a hypercone approximated by fields of lines. Originally created for Crónica Electrónica music label.\nEdition 1/1, 11811x11811 PNG (100x100cm @ 300DPI)\n\n2008, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-08-24T11:23:59+00:00",
+      "artifact_uri": "ipfs://QmPeYLw1SR5fQ5CtEu7SjxMyuByTsmuFXVDMyvQy9PLbiK"
+    },
+    {
+      "token_id": "771524",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Conical 0009",
+      "description": "Visual distortion field, a hypercone approximated by fields of lines. Originally created for Crónica Electrónica music label.\nEdition 1/1, 11811x11811 PNG (100x100cm @ 300DPI)\n\n2008, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-08-24T11:21:59+00:00",
+      "artifact_uri": "ipfs://QmcGbYMjgsVPg38eo32w59CPeEzK8jdM3cyKuywZK18mYH"
+    },
+    {
+      "token_id": "771515",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Conical 0005",
+      "description": "Visual distortion field, a hypercone approximated by fields of lines. Originally created for Crónica Electrónica music label.\nEdition 1/1, 11811x11811 PNG (100x100cm @ 300DPI)\n\n2008, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-08-24T11:02:29+00:00",
+      "artifact_uri": "ipfs://QmW1WibuvA1NT8fBKNkXoDKqM9WbczCi5Npde4BVUYGBoT"
+    },
+    {
+      "token_id": "771507",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Conical 0007",
+      "description": "Visual distortion field, a hypercone approximated by fields of lines. Originally created for Crónica Electrónica music label.\nEdition 1/1, 11811x11811 PNG (100x100cm @ 300DPI)\n\n2008, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-08-24T10:49:29+00:00",
+      "artifact_uri": "ipfs://QmcAEP7pcvysHhNryC9AhTcBLyteSLKA4nwBZDsZdcUVfQ"
+    },
+    {
+      "token_id": "28516",
+      "fa2_address": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "platform": "VERSUM",
+      "name": "Study - BGlass-001-02-4k",
+      "description": "4kpx PNG, false colored mesh rendered in MeshLab\n2022, edition of 25, Marius Watz @mariuswatz",
+      "price": 20000000,
+      "minted_at": "2022-08-16T20:32:29+00:00",
+      "artifact_uri": "ipfs://bafybeigygylxzd7sjvamkxepyxsqttxbjqf6yxvhnnwcqf4mc6zcn5wflu"
+    },
+    {
+      "token_id": "757794",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Catenary03B 08B",
+      "description": "Deformed mesh modeled with catenary curve simulation. 2013, 4K PNG, edition of 6+1 AP, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-07-11T19:43:29+00:00",
+      "artifact_uri": "ipfs://QmXicpokjMenQMwRCpYBxBtwCq3Ao9JGzSXugxuDKsKSHM"
+    },
+    {
+      "token_id": "757790",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Catenary03B 08B-4k",
+      "description": "Deformed mesh modeled with catenary curve simulation. 2013, 4K PNG, edition of 6+1 AP, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-07-11T19:35:29+00:00",
+      "artifact_uri": "ipfs://QmXicpokjMenQMwRCpYBxBtwCq3Ao9JGzSXugxuDKsKSHM"
+    },
+    {
+      "token_id": "756204",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "False Tower 01",
+      "description": "False colored render of generative geometry. Sketch, 2600x2600px PNG, edition of 25.\n2013-2022, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-07-06T21:25:14+00:00",
+      "artifact_uri": "ipfs://QmYdNAhjY7y2nnt1DNgFsqayATQtWZVG8szigxurepQwQ4"
+    },
+    {
+      "token_id": "755732",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "False Exploder 01",
+      "description": "False colored render of generative geometry. Sketch, 2600x2600px PNG, edition of 25.\n2013-2022, Marius Watz @mariuswatz",
+      "price": 20000000,
+      "minted_at": "2022-07-05T23:12:59+00:00",
+      "artifact_uri": "ipfs://QmZz53DCqML1T3meLPZZD96DvUUP5sjznYssyERT58NHeC"
+    },
+    {
+      "token_id": "754922",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "BTropical 03ACB 002-01",
+      "description": "Recolored render, parametric object. Minted as 1/1 for #1of1.\n2016-2022, Marius Watz @mariuswatz, 3000x5600px PNG",
+      "price": null,
+      "minted_at": "2022-07-04T10:22:29+00:00",
+      "artifact_uri": "ipfs://QmctNnqhdnTw94zYZANMCegdKo4RpTrksPfbTjUXYhHPY4"
+    },
+    {
+      "token_id": "754439",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "BMadGlass01 001-02",
+      "description": "Recolored Meshlab render of parametric 3D object. Minted as 1/1 for #1of1.\n12000x12000px PNG, Marius Watz @mariuswatz, 2022",
+      "price": null,
+      "minted_at": "2022-07-03T14:13:29+00:00",
+      "artifact_uri": "ipfs://QmUX6RwEYr93dAp4WRxzYZ9aT257P4ii792vrUFQz559Rx"
+    },
+    {
+      "token_id": "754263",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "BMadGlass01 005A",
+      "description": "Render of parametric 3D object created for Freeform, playing with extending parameters beyond the intended range. Minted as 1/1 for #1of1.\n2016, Marius Watz @mariuswatz, 4000x4000px PNG",
+      "price": null,
+      "minted_at": "2022-07-03T02:51:59+00:00",
+      "artifact_uri": "ipfs://QmVCwAZUD9P99MWKBzZVUHAyP6NnEfWVT9mA7eTBmdhx8J"
+    },
+    {
+      "token_id": "754260",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "BMadGlass01 005B",
+      "description": "Render of parametric 3D object created for Freeform, playing with extending parameters beyond the intended range. Minted as 1/1 for #1of1.\n2016, 4000x4000px PNG, 1/1, 2016.",
+      "price": null,
+      "minted_at": "2022-07-03T02:33:14+00:00",
+      "artifact_uri": "ipfs://QmNX1SeCGosBkwA39yCafxarjJLXjXqhhTeP3GXHW3RKdp"
+    },
+    {
+      "token_id": "748676",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "FrameStruct 01-4x4",
+      "description": "Index sheet of FrameStruct sketches, studies for a public art installation that was never completed. Minted for #tezosartweek, edition of 500. 4kpx PNG, 2015, Marius Watz @mariuswatz",
+      "price": 35000000,
+      "minted_at": "2022-06-19T10:47:59+00:00",
+      "artifact_uri": "ipfs://QmUHxjrwCoDEw3Ud1g1EjDa4WFqNfpdiwxDgzSB3qFgWh4"
+    },
+    {
+      "token_id": "742344",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "BVALSys02B 0005",
+      "description": "Generative composition of helices in 3D space, rendered to appear flat. Edition of 12+2AP, 6000x8000px PNG. 2011 Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-06-03T23:09:59+00:00",
+      "artifact_uri": "ipfs://QmYNdt496MYVXzGGsS9Z3zahHEVnJ4zmUGAZtmvGZ8GAxb"
+    },
+    {
+      "token_id": "742343",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "BVALSys03A 0008",
+      "description": "Generative composition of helices in 3D space, rendered to appear flat. Edition of 12+2AP, 6000x8000px PNG. 2011 Marius Watz @mariuswatz",
+      "price": 500000000,
+      "minted_at": "2022-06-03T23:07:59+00:00",
+      "artifact_uri": "ipfs://QmVWq3zdAQNUkC2g7kn2enbPUf1MXmSMKDHsmZW2WUL6C9"
+    },
+    {
+      "token_id": "733494",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "MonoStar01C 0011-01",
+      "description": "Render of generative object for 3D printing, 6000x5000px PNG, edition of 5+1 AP. 2012, Marius Watz @mariuswatz",
+      "price": 36000000,
+      "minted_at": "2022-05-12T19:55:14+00:00",
+      "artifact_uri": "ipfs://Qmf6yjXSSPtK94rfZYPLLam8LRd8Zao5TD4P6MXYQTYzSs"
+    },
+    {
+      "token_id": "8",
+      "fa2_address": "KT1G9Js2cyWq9FQwcmSh77sJhUnTDLAYsGJq",
+      "platform": "OBJKT",
+      "name": "Pop DefCol 02-0002-02-TZ4TZ",
+      "description": "Rendered and color manipulated 3D mesh, generated and deformed using custom code.\n2400x3200px PNG, edition of 100 for #tezos4tezos event.\n2022, Marius Watz @mariuswatz",
+      "price": 24000000,
+      "minted_at": "2022-05-07T15:36:29+00:00",
+      "artifact_uri": "ipfs://QmaXbD8Ax3bB2dXejJHdS3GRzCNRX9QBakUHg56Buc1Fw6"
+    },
+    {
+      "token_id": "7",
+      "fa2_address": "KT1G9Js2cyWq9FQwcmSh77sJhUnTDLAYsGJq",
+      "platform": "OBJKT",
+      "name": "Pop DefCol 02-0002-01-TZ4TZ",
+      "description": "Rendered and color manipulated 3D mesh, generated and deformed using custom code. \n2400x3200px PNG, edition of 100 for #tezos4tezos event.\n2022, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-05-07T14:20:44+00:00",
+      "artifact_uri": "ipfs://QmU6B73qip8K7zY44GEXUajFWXWrgs5uRjPUdnBYxN8CNP"
+    },
+    {
+      "token_id": "6",
+      "fa2_address": "KT1G9Js2cyWq9FQwcmSh77sJhUnTDLAYsGJq",
+      "platform": "OBJKT",
+      "name": "Pop DefCol 02-0033-01",
+      "description": "Rendered and color manipulated 3D mesh, generated and deformed using custom code. 8000x6000px PNG, edition of 5 + 1 AP. \n2022, Marius Watz @mariuswatz",
+      "price": 90000000,
+      "minted_at": "2022-05-02T08:11:44+00:00",
+      "artifact_uri": "ipfs://Qmca5qP7WtjepaQsnvMbtdHJSLEpjJxzBYNyR7dzt3vFHU"
+    },
+    {
+      "token_id": "5",
+      "fa2_address": "KT1G9Js2cyWq9FQwcmSh77sJhUnTDLAYsGJq",
+      "platform": "OBJKT",
+      "name": "Pop DefCol 02-0015-04",
+      "description": "Rendered and color manipulated 3D mesh, generated and deformed using custom code. 8000x6000px PNG, edition of 5 + 1 AP. \n2022, Marius Watz @mariuswatz",
+      "price": 90000000,
+      "minted_at": "2022-04-30T15:32:14+00:00",
+      "artifact_uri": "ipfs://QmRmkecChJTJcDJRKQPgP19sckft7Y32sa3rgFfd3U4kby"
+    },
+    {
+      "token_id": "4",
+      "fa2_address": "KT1G9Js2cyWq9FQwcmSh77sJhUnTDLAYsGJq",
+      "platform": "OBJKT",
+      "name": "Pop DefCol02 0009-01",
+      "description": "Rendered and color manipulated 3D mesh, generated and deformed using custom code. 8000x6000px PNG, edition of 5 + 1 AP. \n2022, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-04-30T15:12:14+00:00",
+      "artifact_uri": "ipfs://QmUzQrH5HXmCJ35edoBMpQb1DhhyxABqvycMCZksvkNPzR"
+    },
+    {
+      "token_id": "3",
+      "fa2_address": "KT1G9Js2cyWq9FQwcmSh77sJhUnTDLAYsGJq",
+      "platform": "OBJKT",
+      "name": "Pop DefCol 02-0031-03",
+      "description": "Rendered and color manipulated 3D mesh, generated and deformed using custom code. 8000x6000px PNG, edition of 5 + 1 AP. \n2022, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-04-30T14:17:14+00:00",
+      "artifact_uri": "ipfs://QmXdgk3qR8g3wRrSaNNxBENbQkDXRjxFLRrVuoZoPcYAKV"
+    },
+    {
+      "token_id": "2",
+      "fa2_address": "KT1G9Js2cyWq9FQwcmSh77sJhUnTDLAYsGJq",
+      "platform": "OBJKT",
+      "name": "Pop DefCol 02-0007c-01",
+      "description": "Rendered and color manipulated 3D mesh, generated and deformed using custom code. 8000x6000px PNG, edition of 5 + 1 AP. \n2022, Marius Watz @mariuswatz",
+      "price": 60000000,
+      "minted_at": "2022-04-30T11:21:59+00:00",
+      "artifact_uri": "ipfs://QmeVHk3U3hXSDBrzUkcwHbRN6rLsf9yE8fwS9SMQiZQr4P"
+    },
+    {
+      "token_id": "1",
+      "fa2_address": "KT1G9Js2cyWq9FQwcmSh77sJhUnTDLAYsGJq",
+      "platform": "OBJKT",
+      "name": "Pop DefCol 02-0015-02",
+      "description": "Rendered and color manipulated 3D mesh, generated and deformed using custom code. 8000x6000px PNG, edition of 5 + 1 AP. \n2022, Marius Watz @mariuswatz",
+      "price": 90000000,
+      "minted_at": "2022-04-30T00:31:44+00:00",
+      "artifact_uri": "ipfs://QmNZQzsScAWVLwfQih5oAv2F6uECnEW5ACiDjdttEDYbB9"
+    },
+    {
+      "token_id": "0",
+      "fa2_address": "KT1G9Js2cyWq9FQwcmSh77sJhUnTDLAYsGJq",
+      "platform": "OBJKT",
+      "name": "Pop DefCol 02-0015-01",
+      "description": "Rendered and color manipulated 3D object, generated and deformed using custom code. 8000x6000px PNG, edition of 5 + 1 AP. \n2022, Marius Watz @mariuswatz",
+      "price": 90000000,
+      "minted_at": "2022-04-30T00:21:14+00:00",
+      "artifact_uri": "ipfs://QmcHXDWowVZo1W6mnAo6PUDyAW9yb2nF7VZ6kQfHDU5Yh9"
+    },
+    {
+      "token_id": "21011",
+      "fa2_address": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "platform": "VERSUM",
+      "name": "DefCol01B 0004",
+      "description": "Mesh generated and deformed in Processing, rendered and color manipulated. 4500x6000px PNG, edition of 12. \n2022, Marius Watz @mariuswatz",
+      "price": 36000000,
+      "minted_at": "2022-04-13T20:55:14+00:00",
+      "artifact_uri": "ipfs://QmXy4e4fFa93ZKhW9VgVM5C2Asrs1Cm1RNNCQgu63RanY5"
+    },
+    {
+      "token_id": "20885",
+      "fa2_address": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "platform": "VERSUM",
+      "name": "DefCol02 0005-02",
+      "description": "Sketch. Mesh generated and deformed in Processing, rendered and color manipulated. \n7500x7500px PNG, initial edition of 24. 2022, Marius Watz @mariuswatz",
+      "price": 30000000,
+      "minted_at": "2022-04-12T19:10:44+00:00",
+      "artifact_uri": "ipfs://QmVCRWmWN3SRqZS7KdBz4dVoudMaW7Uzd9UymaRPLtKXXn"
+    },
+    {
+      "token_id": "20883",
+      "fa2_address": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "platform": "VERSUM",
+      "name": "DefCol02 0005-01",
+      "description": "Sketch. Mesh generated and deformed in Processing, rendered and color manipulated. \n7500x7500px PNG, initial edition of 24. 2022, Marius Watz @mariuswatz",
+      "price": 32000000,
+      "minted_at": "2022-04-12T19:06:14+00:00",
+      "artifact_uri": "ipfs://QmPAYhM4Y5Z5Sm2SzdG7k8E5gRs5E6qETrCTWL7sQKFWFK"
+    },
+    {
+      "token_id": "716315",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Randbox 03-004",
+      "description": "Monochrome composition, sketch, 2012. 6400x6400px PNG, edition of 6. Marius Watz @mariuswatz",
+      "price": 18000000,
+      "minted_at": "2022-04-11T20:48:14+00:00",
+      "artifact_uri": "ipfs://QmYKmyYzeTikSzZwKmEgDVRexhU2MhQEHmCNpymmYYLBVk"
+    },
+    {
+      "token_id": "716312",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Randbox 03-003",
+      "description": "Monochrome composition sketch, 2012. 6400x6400px PNG, edition of 6. Marius Watz @mariuswatz",
+      "price": 18000000,
+      "minted_at": "2022-04-11T20:44:59+00:00",
+      "artifact_uri": "ipfs://QmVeP7rbeosiQ5yvTgBCRsYH8KY9WfrVbUsWU7S84XZA7w"
+    },
+    {
+      "token_id": "716311",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Randbox 03-002",
+      "description": "Monochrome composition sketch, 2012. 6400x6400px PNG, edition of 6. Marius Watz @mariuswatz",
+      "price": 18000000,
+      "minted_at": "2022-04-11T20:42:29+00:00",
+      "artifact_uri": "ipfs://QmPUJbAwR7ymfBzN7m6rtaHSzQJz5N21enBPiDM4yyfBGs"
+    },
+    {
+      "token_id": "1072",
+      "fa2_address": "KT1TR1ErEQPTdtaJ7hbvKTJSa1tsGnHGZTpf",
+      "platform": "8BIDOU",
+      "name": "Running Man (Polka Big Head)",
+      "description": "Retro game sprite, reimagined.",
+      "price": 5000000,
+      "minted_at": "2022-03-27T23:40:04+00:00",
+      "artifact_uri": null
+    },
+    {
+      "token_id": "1071",
+      "fa2_address": "KT1TR1ErEQPTdtaJ7hbvKTJSa1tsGnHGZTpf",
+      "platform": "8BIDOU",
+      "name": "Running Man (Polka)",
+      "description": "Running Man - retro game sprite graphic, reimagined.",
+      "price": 36900000,
+      "minted_at": "2022-03-27T22:41:14+00:00",
+      "artifact_uri": null
+    },
+    {
+      "token_id": "949",
+      "fa2_address": "KT1TR1ErEQPTdtaJ7hbvKTJSa1tsGnHGZTpf",
+      "platform": "8BIDOU",
+      "name": "Running Man",
+      "description": "Old sprite graphic once used as my logo.",
+      "price": 7500000,
+      "minted_at": "2022-03-27T11:24:24+00:00",
+      "artifact_uri": null
+    },
+    {
+      "token_id": "704684",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "",
+      "description": "DefMono02 0000\nMonochrome render of geometry generated and deformed with custom software. Rendered using Meshlab shaders.\n7500x7500px PNG. Minted as 1/1, 2022, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-03-25T13:26:54+00:00",
+      "artifact_uri": "ipfs://QmatGoDX8zN4ifdwMmfLLRt7UfmNmvVjT4X2gBKLiAj8QE"
+    },
+    {
+      "token_id": "704675",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "DefMono02 0000 (Section A)",
+      "description": "Monochrome render of geometry generated and deformed with custom software. Rendered using Meshlab shaders.\nCropped section, 4000x4000px PNG. Edition of 5 + 1 AP, 2022, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-03-25T13:16:24+00:00",
+      "artifact_uri": "ipfs://Qma4hUcPAfg7m7qMASyjS6r4xoRq7cipaej7c1ufchwfqy"
+    },
+    {
+      "token_id": "704669",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "DefMono02 0000 (Section B)",
+      "description": "Monochrome render of geometry generated and deformed with custom software. Rendered using Meshlab shaders.\nCropped section, 4000x4000px PNG. Edition of 5 + 1 AP, 2022, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-03-25T13:08:54+00:00",
+      "artifact_uri": "ipfs://QmQUyEkhiMju8atCtshS1PRF7cix563BpePV6PAPomSM2x"
+    },
+    {
+      "token_id": "704667",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "DefMono02 0000 (Section C)",
+      "description": "Monochrome render of geometry generated and deformed with custom software. Rendered using Meshlab shaders.\nCropped section, 4000x4000px PNG. Edition of 5 + 1 AP, 2022, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-03-25T13:07:54+00:00",
+      "artifact_uri": "ipfs://QmUFVpXeq8LRaJrxTsqqK8VRY2RY5KWHjjc4xcBQLPHfT3"
+    },
+    {
+      "token_id": "704664",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "DefMono02 0000 (Section D)",
+      "description": "Monochrome render of geometry generated and deformed with custom software. Rendered using Meshlab shaders.\nCropped section, 4000x4000px PNG. Edition of 5 + 1 AP, 2022, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-03-25T13:05:44+00:00",
+      "artifact_uri": "ipfs://QmWER6vK1AHPJhUqF7Fofk6rNqppAsGcqCyt4qXNAtshhY"
+    },
+    {
+      "token_id": "699461",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "DefCol02 0007 03",
+      "description": "Mesh generated and deformed in Processing, rendered in Rhino and color manipulated. 4500x6000px PNG\nMinted as gift for collectors, edition of 50.\n2022, Marius Watz @mariuswatz",
+      "price": 50000000,
+      "minted_at": "2022-03-17T21:44:44+00:00",
+      "artifact_uri": "ipfs://QmWCSj8D6ddmPUQzF8m1Kpy73tCXRZmD2KGm4Q3U1pj2fD"
+    },
+    {
+      "token_id": "689006",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Shredded Cave (diptych - panel A)",
+      "description": "DefCol02-0012 - 3D geometry generated and deformed in Processing, rendered in Rhino and color manipulated. \nEdition of 5+1 AP, 2022, Marius Watz @mariuswatz\n\nDiptych - each panel is a 4000x6000px PNG. Only panel A will be listed for sale, buyers will have panel B airdropped to their wallet. Any resale should include both panels, splitting the piece is against the artist's intentions.",
+      "price": null,
+      "minted_at": "2022-03-04T11:10:34+00:00",
+      "artifact_uri": "ipfs://QmawUTXW95tzTXGE1PJzMEoNdo1RzhEv3htKYrDWVPLemW"
+    },
+    {
+      "token_id": "689002",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Shredded Cave (diptych - panel B)",
+      "description": "DefCol02-0012 - 3D geometry generated and deformed in Processing, rendered in Rhino and color manipulated. \nEdition of 5+1 AP, 2022, Marius Watz @mariuswatz\n\nDiptych - each panel is a 4000x6000px PNG. Only panel A will be listed for sale, buyers will have panel B airdropped to their wallet. Any resale should include both panels, splitting the piece is against the artist's intentions.",
+      "price": null,
+      "minted_at": "2022-03-04T11:07:34+00:00",
+      "artifact_uri": "ipfs://QmToXF53xXh2K86wGAvDnGRtsauTyYM4eAJHpNWPNVhbg9"
+    },
+    {
+      "token_id": "14083",
+      "fa2_address": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "platform": "VERSUM",
+      "name": "DefCol01-0005 Not Quite Marble",
+      "description": "Sketch. Mesh generated and deformed in Processing, rendered and color manipulated. 4500x6000px PNG, edition of 24. \n2022, Marius Watz @mariuswatz",
+      "price": 40000000,
+      "minted_at": "2022-02-20T12:11:50+00:00",
+      "artifact_uri": "ipfs://QmRxnz862NoHEQsfCnGQ8yqjpyVppbXouhFG1DF53hkQDb"
+    },
+    {
+      "token_id": "11666",
+      "fa2_address": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "platform": "VERSUM",
+      "name": "DefColAttr02 0002",
+      "description": "Sketch. Mesh generated and deformed in Processing, rendered and color manipulated. 4500x6000px PNG, edition of 24. \n2022, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-02-11T22:13:44+00:00",
+      "artifact_uri": "ipfs://QmRhCtS7n6L6fyRiFUSPT1vCAnKGUK4VXpyQvj81eocSWy"
+    },
+    {
+      "token_id": "7690",
+      "fa2_address": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "platform": "VERSUM",
+      "name": "DefCol02 0019",
+      "description": "Sketch. Mesh generated and deformed in Processing, rendered and color manipulated. 7153x5365px PNG, edition of 24. \n2022, Marius Watz @mariuswatz",
+      "price": 300000000,
+      "minted_at": "2022-01-31T22:00:38+00:00",
+      "artifact_uri": "ipfs://QmbyvimNjaL7s1ctoeBYhPHcHd9kPn3Ew7CqwqWbnUG68y"
+    },
+    {
+      "token_id": "6609",
+      "fa2_address": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "platform": "VERSUM",
+      "name": "DefCol03 0004RB",
+      "description": "Mesh generated and deformed in Processing, rendered and heavily color manipulated. 8658x11544px PNG, edition of 5+1 AP. \n2022, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-01-28T23:23:18+00:00",
+      "artifact_uri": "ipfs://QmUaPdXM14UGtuBxFDdHCeiCW1MRepzCF5wEZ8DTnjjvUY"
+    },
+    {
+      "token_id": "5430",
+      "fa2_address": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "platform": "VERSUM",
+      "name": "DeformModel03 0004",
+      "description": "Mesh generated and deformed in Processing, rendered in Rhino. 5kpx PNG, edition of 6+1 AP. 2016, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-01-25T23:42:30+00:00",
+      "artifact_uri": "ipfs://QmXjCvGHvgP2PMhX21JBZeBagzbeADn39XKoSgzfyRSKxC"
+    },
+    {
+      "token_id": "5426",
+      "fa2_address": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "platform": "VERSUM",
+      "name": "DeformModel02 0019C-01",
+      "description": "Mesh generated and deformed in Processing, rendered in Rhino. 5kpx PNG, edition of 6+1AP. 2016, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-01-25T23:32:30+00:00",
+      "artifact_uri": "ipfs://QmXbEG7XRFfVmMfXrWnthMAuxDbeR5QHvG8jNTQVN46HcK"
+    },
+    {
+      "token_id": "4405",
+      "fa2_address": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "platform": "VERSUM",
+      "name": "WingArcs07A4 0009",
+      "description": "Monochrome generative composition. SVG, edition of 8+1 AP.\n2011, artist residency at Florida State University, Tallahassee. Marius Watz @mariuswatz",
+      "price": 32000000,
+      "minted_at": "2022-01-22T16:44:50+00:00",
+      "artifact_uri": "ipfs://QmQJzTpUNLWUXgNsrhQsEQ7xgYJYXbkXnR3TP1grpwfdXs"
+    },
+    {
+      "token_id": "267",
+      "fa2_address": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "platform": "VERSUM",
+      "name": "WingArcs07A5 0004",
+      "description": "Monochrome generative composition. SVG, edition of 8+1 AP.\n2011, artist residency at Florida State University, Tallahassee. Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2022-01-13T22:38:30+00:00",
+      "artifact_uri": "ipfs://QmUv1P8JRGpuoyu5Ga8JgY4DwQLqmbyBcv2cvsW65XPc5B"
+    },
+    {
+      "token_id": "218",
+      "fa2_address": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "platform": "VERSUM",
+      "name": "WingArcs07A4 0003",
+      "description": "Monochrome generative composition. SVG, edition of 8+1 AP.\n2011, artist residency at Florida State University, Tallahassee. Marius Watz @mariuswatz",
+      "price": 32000000,
+      "minted_at": "2022-01-13T20:06:10+00:00",
+      "artifact_uri": "ipfs://QmZoWVmuPsfQxmNxV8HQ1KEBsPqwXYTk9BhX15UduxoEfX"
+    },
+    {
+      "token_id": "198",
+      "fa2_address": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "platform": "VERSUM",
+      "name": "WingArcs07A5 0006",
+      "description": "Monochrome generative composition. SVG, edition of 8+1 AP.\n2011, artist residency at Florida State University, Tallahassee. Marius Watz @mariuswatz",
+      "price": 32000000,
+      "minted_at": "2022-01-13T19:10:40+00:00",
+      "artifact_uri": "ipfs://QmRQrqmhXu8ZcK2NGnjatypr7Yu2Kyq6pd5zQejKupMvmU"
+    },
+    {
+      "token_id": "608002",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "GCirc01C 008",
+      "description": "4500x3375px PNG, edition of 15. 2013, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-12-29T22:34:30+00:00",
+      "artifact_uri": "ipfs://QmXbxifRGrCR8QPr7QqJfVJ81tPnStzRTxrMKbGoYNYcJa"
+    },
+    {
+      "token_id": "15648",
+      "fa2_address": "KT18pVpRXKPY2c4U2yFEGSH3ZnhB2kL8kwXS",
+      "platform": "RARIBLE",
+      "name": "GCirc01E 026",
+      "description": "Generative system, 8000x6000px PNG, edition of 5+1 AP. \n2013, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-12-28T12:49:40+00:00",
+      "artifact_uri": "ipfs://QmVWTp5RiiLnEZfD7Jz2cahf2yG23fdFK8b1oochi5RdZP/image.png"
+    },
+    {
+      "token_id": "604913",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "GCirc01E 019",
+      "description": "8000x6000px PNG, edition of 5+1 AP. 2013, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-12-27T21:47:40+00:00",
+      "artifact_uri": "ipfs://QmfWnuYA5bagMqw77SeK5gsrvi2iSvGmNp7fQJ7Nv8xcET"
+    },
+    {
+      "token_id": "6460",
+      "fa2_address": "KT18pVpRXKPY2c4U2yFEGSH3ZnhB2kL8kwXS",
+      "platform": "RARIBLE",
+      "name": "MBSysCD06 0002",
+      "description": "Offshoot of generative commission created for Montblanc. 6000x4500px PNG, part of a series of 3 images, each in an edition of 24. @mariuswatz, 2013",
+      "price": 14000000,
+      "minted_at": "2021-12-18T08:32:36+00:00",
+      "artifact_uri": "ipfs://QmWKGDpMr4BgC3fnH7G9HVU1GgVXgntwZr2QyUgpK7Tn6Y/image.png"
+    },
+    {
+      "token_id": "6454",
+      "fa2_address": "KT18pVpRXKPY2c4U2yFEGSH3ZnhB2kL8kwXS",
+      "platform": "RARIBLE",
+      "name": "MBSysCD06 0003",
+      "description": "Offshoot of generative commission created for Montblanc. 6000x4500px PNG, part of a series of 3 images, each in an edition of 24. @mariuswatz, 2013",
+      "price": null,
+      "minted_at": "2021-12-18T08:17:36+00:00",
+      "artifact_uri": "ipfs://QmYzkacsmYJrMmasaGUR1zaYkf2dH2skWrwErmE1bgzNn4/image.png"
+    },
+    {
+      "token_id": "6442",
+      "fa2_address": "KT18pVpRXKPY2c4U2yFEGSH3ZnhB2kL8kwXS",
+      "platform": "RARIBLE",
+      "name": "MBSysCD06 0004",
+      "description": "Offshoot of generative commission created for Montblanc. 6000x4500px PNG, part of a series of 3 images, each in an edition of 24. @mariuswatz, 2013",
+      "price": null,
+      "minted_at": "2021-12-18T08:03:26+00:00",
+      "artifact_uri": "ipfs://QmZDSVf5djBfRZtHjvp1sTPjtg5woWvoSS94EQ1nBwPKhK/image.png"
+    },
+    {
+      "token_id": "3098",
+      "fa2_address": "KT18pVpRXKPY2c4U2yFEGSH3ZnhB2kL8kwXS",
+      "platform": "RARIBLE",
+      "name": "R-Arcs06A 0022",
+      "description": "Still from generative software animation, 4kpx PNG, edition of 8+1 AP. \n\n2013, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-12-16T15:13:16+00:00",
+      "artifact_uri": "ipfs://Qmct9tHravVgScNvuLLMx7Kz2kUwuptKJy9XokhijbfJnz/image.png"
+    },
+    {
+      "token_id": "581557",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "BVALSys02C 0000",
+      "description": "Generative composition of helices in 3D space rendered to appear flat. Edition of 12+2AP, 6000x8000px PNG. 2011 Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-12-10T23:57:56+00:00",
+      "artifact_uri": "ipfs://QmP91RjsLJinfKgJm8hC4nqXKtHyHPZLDcqiNHiqSx6oPo"
+    },
+    {
+      "token_id": "557788",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "BVALSys02C 0004",
+      "description": "Generative composition of helices in 3D space rendered to appear flat. Edition of 12+2AP, 6000x8000px PNG. 2011 Marius Watz @mariuswatz",
+      "price": 64000000,
+      "minted_at": "2021-11-26T19:08:58+00:00",
+      "artifact_uri": "ipfs://QmeE15C8RMAcESMWJoPsRAYkNkY9kfU7FFYwA3Dp9WbbLB"
+    },
+    {
+      "token_id": "550595",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "BVALSys02B 0008",
+      "description": "Generative composition of helices in 3D space rendered to appear flat. Edition of 12+2AP, 6000x8000px PNG. 2011 Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-11-22T21:23:52+00:00",
+      "artifact_uri": "ipfs://QmeR8AP8FdXDsjSdKve3YrqqSNoMK7Yrq1EmuMAEhudZri"
+    },
+    {
+      "token_id": "533424",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "NovoShards11AB-C 095",
+      "description": "Still from unfinished software animation. Edition of 25 AP, 2160x3840px PNG, procedural modeling, OpenGL. Marius Watz / @mariuswatz, 2014",
+      "price": 100000000,
+      "minted_at": "2021-11-14T03:17:38+00:00",
+      "artifact_uri": "ipfs://QmbN4S5EZjcmPEeLUzWceV5he7gZXtDXVha7yr7MDhRAmQ"
+    },
+    {
+      "token_id": "533422",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "NovoShards11AB-C 078",
+      "description": "Still from unfinished software animation. Edition of 25 AP, 2160x3840px PNG, procedural modeling, OpenGL. Marius Watz / @mariuswatz, 2014",
+      "price": null,
+      "minted_at": "2021-11-14T03:15:38+00:00",
+      "artifact_uri": "ipfs://QmYzRXfWDW1LLbqjedQECVio8ZhBdTao21wPXKdK8JorZt"
+    },
+    {
+      "token_id": "532081",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Kugelstudie 00022",
+      "description": "Geometric study of spherical space, created during a 2006 artist residency at Museumsquartier Wien and Medienturm Graz. Originally shown as a realtime software animation, later used to generate a series of high-resolution still images.\n\nEdition 1/1, 4000x6000px PNG. Marius Watz / @mariuswatz, 2006",
+      "price": 180000000,
+      "minted_at": "2021-11-13T03:58:28+00:00",
+      "artifact_uri": "ipfs://QmZK2dxuas6i2gmNJi1rUyfoZCCfkCiFiD3FTD8bmF9xWs"
+    },
+    {
+      "token_id": "532080",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Kugelstudie 00019",
+      "description": "Geometric study of spherical space, created during a 2006 artist residency at Museumsquartier Wien and Medienturm Graz. Originally shown as a realtime software animation, later used to generate a series of high-resolution still images.\n\nEdition 1/1, 4000x6000px PNG. Marius Watz / @mariuswatz, 2006",
+      "price": 180000000,
+      "minted_at": "2021-11-13T03:55:28+00:00",
+      "artifact_uri": "ipfs://QmUGfwLEceWdG8NhdDBgZ7CemwNzxpHjxdmY2je1h1eAQW"
+    },
+    {
+      "token_id": "532041",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Kugelstudie 00018",
+      "description": "Geometric study of spherical space, created during a 2006 artist residency at Museumsquartier Wien and Medienturm Graz. Originally shown as a realtime software animation, later used to generate a series of high-resolution still images.\n\nEdition 1/1, 4000x6000px PNG. Marius Watz / @mariuswatz, 2006",
+      "price": 180000000,
+      "minted_at": "2021-11-13T03:02:28+00:00",
+      "artifact_uri": "ipfs://QmRc4RmqTJb8kHBRmd3sCXPKzQE9nYgfitRXpjHXKyZ75E"
+    },
+    {
+      "token_id": "532032",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Kugelstudie 0016",
+      "description": "Geometric study of spherical space, created during a 2006 artist residency at Museumsquartier Wien and Medienturm Graz. Originally shown as a realtime software animation, later used to generate a series of high-resolution still images.\n\nEdition 1/1, 4000x6000px PNG. Marius Watz / @mariuswatz, 2006",
+      "price": 120000000,
+      "minted_at": "2021-11-13T02:51:48+00:00",
+      "artifact_uri": "ipfs://QmQLEnXRRgYLwMC9os51dKP6iRXW8MwVkM1yGmFSe2SD4S"
+    },
+    {
+      "token_id": "532029",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Kugelstudie 0014",
+      "description": "Geometric study of spherical space, created during a 2006 artist residency at Museumsquartier Wien and Medienturm Graz. Originally shown as a realtime software animation, later used to generate a series of high-resolution still images.\n\nEdition 1/1, 4000x6000px PNG. Marius Watz / @mariuswatz, 2006",
+      "price": 120000000,
+      "minted_at": "2021-11-13T02:46:18+00:00",
+      "artifact_uri": "ipfs://QmbB1DGzTPUrUmXEVx2A5xbR3EvnG31YisYkHy2PF2KWk2"
+    },
+    {
+      "token_id": "532026",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Kugelstudie 0015",
+      "description": "Geometric study of spherical space, created during a 2006 artist residency at Museumsquartier Wien and Medienturm Graz. Originally shown as a realtime software animation, later used to generate a series of high-resolution still images.\n\nEdition 1/1, 4000x6000px PNG. Marius Watz / @mariuswatz, 2006",
+      "price": null,
+      "minted_at": "2021-11-13T02:32:48+00:00",
+      "artifact_uri": "ipfs://QmV96hMzgCrbGhsa3RnGNXdHwgDLkKV2Gki7RBHKuFaSuL"
+    },
+    {
+      "token_id": "532024",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Kugelstudie 0009",
+      "description": "Geometric study of spherical space, created during a 2006 artist residency at Museumsquartier Wien and Medienturm Graz. Originally shown as a realtime software animation, later used to generate a series of high-resolution still images.\n\nEdition 1/1, 4000x6000px PNG. Marius Watz / @mariuswatz, 2006",
+      "price": 180000000,
+      "minted_at": "2021-11-13T02:25:38+00:00",
+      "artifact_uri": "ipfs://QmRvc9pRvD8SXHwQgpT8At99KaLjJ6froPWNFR9AeC7bQj"
+    },
+    {
+      "token_id": "532023",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Kugelstudie 0007",
+      "description": "Geometric study of spherical space, created during a 2006 artist residency at Museumsquartier Wien and Medienturm Graz. Originally shown as a realtime software animation, later used to generate a series of high-resolution still images.\n\nEdition 1/1, 4000x6000px PNG. Marius Watz / @mariuswatz, 2006",
+      "price": null,
+      "minted_at": "2021-11-13T02:20:28+00:00",
+      "artifact_uri": "ipfs://QmQR1cw5SLtmgC53j6wFajqnEdeaC6qbGN8KMK3yjcFyGW"
+    },
+    {
+      "token_id": "508142",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "R-Arcs06A 0000",
+      "description": "Still from software animation created for media facade of the Rockheim museum, Trondheim, Norway. 3kpx PNG, edition of 100 for #HEN500K. 2013, Marius Watz @mariuswatz",
+      "price": 8000000,
+      "minted_at": "2021-11-05T00:01:58+00:00",
+      "artifact_uri": "ipfs://QmVdXFtpiSozj6mRNe1gVkr96XLAHa9hSXBchahBGM9Gob"
+    },
+    {
+      "token_id": "502852",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "NeonOrganic-v2 0021",
+      "description": "Print derived from v2 variant of Neon Organic software animation, first created in 2005 as a multi-screen media facade artwork.\n8kpx PNG, 16:9 aspect ratio. Edition of 6+1 AP. 2008, Marius Watz @mariuswatz",
+      "price": 30000000,
+      "minted_at": "2021-11-03T16:15:32+00:00",
+      "artifact_uri": "ipfs://QmZ29jmwEGvywfpBV5QVJybneaQ2WwKudXnF1AVCm3e7cL"
+    },
+    {
+      "token_id": "502835",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Neon Organic v2 0008",
+      "description": "Print derived from v2 variant of Neon Organic software animation, first created in 2005 as a multi-screen media facade artwork.\n8kpx PNG, 16:9 aspect ratio. Edition of 6+1 AP. 2008, Marius Watz @mariuswatz",
+      "price": 30000000,
+      "minted_at": "2021-11-03T16:10:32+00:00",
+      "artifact_uri": "ipfs://QmPbF5LBGhVKwZHMiMWajp3JGhJw7EGPCVAnJbQaxTwqoF"
+    },
+    {
+      "token_id": "502366",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Neon Organic v1 081209 C",
+      "description": "Print derived from Neon Organic software animation, first created in 2005 as a multi-screen media facade artwork.\n6kpx PNG, 16:9 aspect ratio. Edition of 4+1 AP. 2008, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-11-03T14:15:52+00:00",
+      "artifact_uri": "ipfs://QmVJqZQUxRcqm461mMN8EugShgZBQkJeRvbiejjo4Fdta9"
+    },
+    {
+      "token_id": "502336",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Neon Organic v1 081209 B",
+      "description": "Print derived from Neon Organic software animation, first created in 2005 as a multi-screen media facade artwork.\n6kpx PNG, 16:9 aspect ratio. Edition of 4+1 AP. 2008, Marius Watz @mariuswatz",
+      "price": 750000000,
+      "minted_at": "2021-11-03T14:07:52+00:00",
+      "artifact_uri": "ipfs://QmfUcDUn6UPYGnkPBzpiRyY8p1BjmYfgyKwvZobhcWrDoR"
+    },
+    {
+      "token_id": "502331",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Neon Organic v1 081209 A",
+      "description": "Print derived from Neon Organic software animation, first created in 2005 as a multi-screen media facade artwork.\n6kpx PNG, 16:9 aspect ratio. Edition of 4+1 AP. 2008, Marius Watz @mariuswatz",
+      "price": 24000000,
+      "minted_at": "2021-11-03T14:06:22+00:00",
+      "artifact_uri": "ipfs://QmXoNsjHysv1ubZdmMVJvHfqWtHLC3s1UKfGc956ziTu9b"
+    },
+    {
+      "token_id": "486973",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Flight - FDD",
+      "description": "\"Flight\" series, 2006. Originally commissioned for the Norwich International Art Festival, variant created for Future Design Days Stockholm 2006. Edition of 6+1AP, 8502x6140px PNG. Marius Watz @mariuswatz",
+      "price": 50000000,
+      "minted_at": "2021-10-29T18:49:52+00:00",
+      "artifact_uri": "ipfs://QmfZSGW1Arxz9VEFSq4EuCauXvkFeeqhCARwV2HxWkTaWg"
+    },
+    {
+      "token_id": "400724",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Flight - FSlice4 030",
+      "description": "\"Flight\" series, 2006. Commissioned for the Norwich International Art Festival. Edition of 6+1AP, 6k PNG in 3:4 aspect ratio. Marius Watz @mariuswatz",
+      "price": 35000000,
+      "minted_at": "2021-10-06T19:50:44+00:00",
+      "artifact_uri": "ipfs://QmeKK5RNL8uPQQmFTNsUVvc869AiUtxPzyLxQ9bbmEBgJd"
+    },
+    {
+      "token_id": "400685",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Flight - FSlice4 0022",
+      "description": "\"Flight\" series, 2006. Commissioned for the Norwich International Art Festival. Edition of 6+1AP, 6k PNG in 3:4 aspect ratio. Marius Watz @mariuswatz",
+      "price": 34500000,
+      "minted_at": "2021-10-06T19:27:44+00:00",
+      "artifact_uri": "ipfs://QmXhXcFaTH1NPD47QZXRYzov1vNJ2Lxnac4Gnf6UxJwkjk"
+    },
+    {
+      "token_id": "400538",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Flight - FSlice2 0031",
+      "description": "\"Flight\" series, 2006. Commissioned for the Norwich International Art Festival. Edition of 6+1AP, 6k PNG in 3:4 aspect ratio. Marius Watz @mariuswatz",
+      "price": 29000000,
+      "minted_at": "2021-10-06T18:44:14+00:00",
+      "artifact_uri": "ipfs://QmYihR1B72Wbp7u9fv7Lv54JVw6EMFgvvndHyFRiwMEw3S"
+    },
+    {
+      "token_id": "400118",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Flight - FSlice2 0019",
+      "description": "Early sketch for \"Flight\" series, 2006. Commissioned for the Norwich International Art Festival.\nEdition of 20, 12k PNG in 9:16 aspect ratio. Marius Watz @mariuswatz",
+      "price": 35000000,
+      "minted_at": "2021-10-06T16:35:24+00:00",
+      "artifact_uri": "ipfs://QmVV1SaYsidXQXGjV4fEUbp829XwfzRupbZm9UvKqwrnaj"
+    },
+    {
+      "token_id": "357107",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Exploder 0032-0035",
+      "description": "Iterations of the Exploder system, based on boxes in a spherical coordinate system. Edition of 10+2AP, SVG. 2003-2015, Marius Watz @mariuswatz",
+      "price": 45000000,
+      "minted_at": "2021-09-25T18:21:04+00:00",
+      "artifact_uri": "ipfs://QmQSNQqN3QiSMV2B4T3RCNbH12JcZpQ7zowTMdMzQqZcym"
+    },
+    {
+      "token_id": "307681",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "MBHorn01-Holes 0000",
+      "description": "Sketch render, parametric 3D object created with Processing and Fredrik Vanhoutte's Hemesh library.\n3.6kpx PNG, edition of 18. 2016, Marius Watz @mariuswatz",
+      "price": 17000000,
+      "minted_at": "2021-09-14T23:23:52+00:00",
+      "artifact_uri": "ipfs://QmegUuWTVJUMuWAWgE1ACRTumev3n8pmHHudQWkCiHv1uS"
+    },
+    {
+      "token_id": "293635",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Horn0004-01",
+      "description": "Render sketch from process working on Object #1 - #3, parametric objects intended for 3D printing.\n3kpx PNG, edition of 6+1AP. 2007, Marius Watz @mariuswatz",
+      "price": 160000000,
+      "minted_at": "2021-09-11T20:22:00+00:00",
+      "artifact_uri": "ipfs://bafybeifvzjbiwbcrcmfj2euy3r64m7z4t62wir3tnrjtxlbzxhl4z2ieja"
+    },
+    {
+      "token_id": "286518",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "EP2 0024-4k-OBJKT4OBJKT",
+      "description": "Still from generative software animation, 2007, Marius Watz @mariuswatz  \n4kpx PNG, open edition for OBJKT4OBKJT3",
+      "price": 4000000,
+      "minted_at": "2021-09-10T11:08:30+00:00",
+      "artifact_uri": "ipfs://bafybeig6repdsp72vbjwl7ds5otm6ryrf5lfvjc45zjhpcaoo4zzly4ucm"
+    },
+    {
+      "token_id": "286510",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "EP2 0025-4k-OBJKT4OBJKT",
+      "description": "Still from generative software animation, 2007, Marius Watz @mariuswatz  \n4kpx PNG, open edition for OBJKT4OBKJT3",
+      "price": 9000000,
+      "minted_at": "2021-09-10T11:06:00+00:00",
+      "artifact_uri": "ipfs://bafybeiby2ijwzafgkkegglvu3l5cmsciq2ffu3ez7hnffgw7bxapxo3r5m"
+    },
+    {
+      "token_id": "280758",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "R-Arcs06A 0009",
+      "description": "Still from software animation created for media facade of the Rockheim museum, Trondheim, Norway.\n5kpx PNG, edition of 8+1 AP. 2013, Marius Watz @mariuswatz",
+      "price": 300000000,
+      "minted_at": "2021-09-08T22:58:04+00:00",
+      "artifact_uri": "ipfs://bafybeigdqhhxgodmycw3xne47t45ma5lteozeqvzsqzgbg3ivnfpfovd5e"
+    },
+    {
+      "token_id": "280754",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "R-Arcs06A 0010",
+      "description": "Still from software animation created for media facade of the Rockheim museum, Trondheim, Norway.\n5kpx PNG, edition of 8+1 AP. 2013, Marius Watz @mariuswatz",
+      "price": 59000000,
+      "minted_at": "2021-09-08T22:56:34+00:00",
+      "artifact_uri": "ipfs://bafybeiacdim57lgmxuckgw4wox4eqsvtu2wuj5z67rf7j2zwxx4oj7glxu"
+    },
+    {
+      "token_id": "278341",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Conical 0017",
+      "description": "Visual distortion field, a hypercone approximated by fields of lines. Originally created for Crónica Electrónica music label. \nEdition 1/1, 4724x4724px PNG. 2008, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-09-08T10:41:04+00:00",
+      "artifact_uri": "ipfs://bafybeidusvq5ef4y6xjnopuglos7sqz7a322usizvltp36bl2ke5csniwu"
+    },
+    {
+      "token_id": "278330",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Conical 0012",
+      "description": "Visual distortion field, a hypercone approximated by fields of lines. Originally created for Crónica Electrónica music label. \nEdition 1/1, 4724x4724px PNG. 2008, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-09-08T10:36:04+00:00",
+      "artifact_uri": "ipfs://bafybeiho4qyeyyygsdz2wklvpyt3elzgrscejnodlxjmqed6vccwrn2scu"
+    },
+    {
+      "token_id": "278108",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Conical 0011",
+      "description": "Visual distortion field, a hypercone approximated by fields of lines. Originally created for Crónica Electrónica music label. \n\nEdition 1/1, 4724x4724px PNG. 2008, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-09-08T08:45:04+00:00",
+      "artifact_uri": "ipfs://bafybeibzfaipmm3px2by5b7pjdt5om2uemplhiygymsgfya3ptmxl3r5hi"
+    },
+    {
+      "token_id": "259009",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Conical01 0013",
+      "description": "Visual distortion field, a hypercone approximated by fields of lines. Originally created for Crónica Electrónica music label. \nEdition 1/1, 4724x4724px PNG. 2008, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-09-03T07:37:28+00:00",
+      "artifact_uri": "ipfs://bafybeihslvnqchjumwecotn6zi6vkuj4puf2ze6ckxxttsql5utmsocmi4"
+    },
+    {
+      "token_id": "258994",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "",
+      "description": "Visual distortion field, a hypercone approximated by fields of lines. Originally created for Crónica Electrónica music label. \nEdition 1/1, 4724x4724px PNG. 2008, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-09-03T07:28:18+00:00",
+      "artifact_uri": "ipfs://bafybeiaoe5tdpovtd6coejyjghbbxulb7jsp5kwjnhr6pobzxgouucjdoy"
+    },
+    {
+      "token_id": "254868",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Horn14 01",
+      "description": "3D object created using scaling and copying spheres, a throwback to my graphics for early 1990's raves.\nReleased for Hicetnunc 0.5yr anniversary.\n2007, 5kpx PNG, edition of 55, Marius Watz @mariuswatz",
+      "price": 6500000,
+      "minted_at": "2021-09-02T08:12:28+00:00",
+      "artifact_uri": "ipfs://QmUoUqUxgopAiZh4MWhycLSX7hfKsugAyJv16VgcxA5XUx"
+    },
+    {
+      "token_id": "246726",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "UCracking-0005 000-8k",
+      "description": "Sketch, subdivision geometry. Edition of 25+2 AP, 8kpx PNG. 2015, Marius Watz @mariuswatz",
+      "price": 25000000,
+      "minted_at": "2021-08-31T08:39:38+00:00",
+      "artifact_uri": "ipfs://QmbtTHXKUeYkbhzKd63ufRy5QXQEFGQgBZaeFAd85EvnYr"
+    },
+    {
+      "token_id": "243051",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Metropolis",
+      "description": "Generative landscape created by dribnet and rendered on an explorable infinite canvas, 2021.\nThis location discovered and minted by Marius Watz Mon Aug 30 2021.\nhttps://metropolis.drib.net/#2.54/45578.8/58501.6",
+      "price": null,
+      "minted_at": "2021-08-30T12:21:58+00:00",
+      "artifact_uri": "ipfs://QmPKBbTKJf7s7PdGNQ1ndKRScCZ66ntij1YHnsnYJukLd3"
+    },
+    {
+      "token_id": "237888",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "NShards11AB-C 014",
+      "description": "Still from unfinished software animation. \n2160x3840px PNG, Processing, procedural modeling, OpenGL. Marius Watz / @mariuswatz, 2014\n\n1/1 edition (artist reserves right to keep an exhibition copy)",
+      "price": 3000000000,
+      "minted_at": "2021-08-28T21:46:36+00:00",
+      "artifact_uri": "ipfs://QmfWwTPyPMougTUHEea91cHmrJMa6T3WWSywAjo66iW3tj"
+    },
+    {
+      "token_id": "237865",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "",
+      "description": "Still from unfinished software animation. 1/1 edition (artist reserves right to keep an exhibition copy). \n\n2160x3840px PNG, procedural modeling, OpenGL. Marius Watz / @mariuswatz, 2014",
+      "price": null,
+      "minted_at": "2021-08-28T21:22:46+00:00",
+      "artifact_uri": "ipfs://QmfWwTPyPMougTUHEea91cHmrJMa6T3WWSywAjo66iW3tj"
+    },
+    {
+      "token_id": "237266",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Conical Gone Wrong",
+      "description": "File under \"Happy Accidents\": Accidentally glitched Conical. The model was regenerated repeatedly while a tiling technique was used to generate a high res image. \n4k PNG, open edition. Marius Watz @mariuswatz, 2021",
+      "price": 11000000,
+      "minted_at": "2021-08-28T16:36:06+00:00",
+      "artifact_uri": "ipfs://QmTudE1HeSkkE1GgeQDKqSJdLfBZEoUKFtmNhG3VuXn9AH"
+    },
+    {
+      "token_id": "236840",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Bridge Hypothesis 0031",
+      "description": "From the Bridge Hypothesis series. In Norse mythology Bifrost was the bridge between the mortal world and that of the gods, fashioned as a burning rainbow or manifested as the Aurora Borealis. Here, geometric forms recall the structures of bridges and roads, reimagined as Technicolor pathways. \n\n4500x6000px PNG, edition of 8+1 AP. Marius Watz, @mariuswatz 2010.",
+      "price": 147000000,
+      "minted_at": "2021-08-28T13:56:06+00:00",
+      "artifact_uri": "ipfs://QmPzc4eigvWYzaivFte2MCjzGGqfM9aSNLTbg3ZwdAQvSZ"
+    },
+    {
+      "token_id": "236088",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Bridge Hypothesis 0025",
+      "description": "From the Bridge Hypothesis series. In Norse mythology Bifrost was the bridge between the mortal world and that of the gods, fashioned as a burning rainbow or manifested as the Aurora Borealis. Here, geometric forms recall the structures of bridges and roads, reimagined as Technicolor pathways. \n\n4500x6000px PNG, edition of 8+1 AP. Marius Watz, @mariuswatz 2010.",
+      "price": 45000000,
+      "minted_at": "2021-08-28T08:52:06+00:00",
+      "artifact_uri": "ipfs://QmPsMKeokhDjESR8DVqg9x3rTLfAMyfJa23C1BdcsDNv5Z"
+    },
+    {
+      "token_id": "234826",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "NShards03AB-B 008",
+      "description": "Still from unfinished software animation. Edition of 10 + 2 AP, 2160x3840px, procedural modeling, OpenGL. Marius Watz / @mariuswatz, 2014",
+      "price": 200000000,
+      "minted_at": "2021-08-27T20:41:56+00:00",
+      "artifact_uri": "ipfs://QmdoF4CgDjJF2S92dMcp95s1KSQE8UTF9adWrpcbL9KAkQ"
+    },
+    {
+      "token_id": "234781",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "NShards03A-B 012",
+      "description": "Still from unfinished software animation. Edition of 10 + 2 AP, 2160x3840px, procedural modeling, OpenGL. Marius Watz / @mariuswatz, 2014",
+      "price": 42000000,
+      "minted_at": "2021-08-27T20:05:26+00:00",
+      "artifact_uri": "ipfs://QmYrveJGjH9kPCSSJWY1f13XmzZ3FrCA2pdqX1GiDyoX6i"
+    },
+    {
+      "token_id": "231445",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Bridge Hypothesis 03B 0023",
+      "description": "From the Bridge Hypothesis series. In Norse mythology Bifrost was the bridge between the mortal world and that of the gods, fashioned as a burning rainbow or manifested as the Aurora Borealis. Here, geometric forms recall the structures of bridges and roads, reimagined as Technicolor pathways. \n\n4500x6000px PNG, edition of 8+1 AP. Marius Watz, @mariuswatz 2010.",
+      "price": 170000000,
+      "minted_at": "2021-08-26T20:49:46+00:00",
+      "artifact_uri": "ipfs://QmfTUkuTcLN1Fm8Sj81F4Hr76QFeVcGFvYpBBo9jJRQvht"
+    },
+    {
+      "token_id": "231241",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Bridge Hypothesis 02A 0002B",
+      "description": "From the Bridge Hypothesis series. In Norse mythology Bifrost was the bridge between the mortal world and that of the gods, fashioned as a burning rainbow or manifested as the Aurora Borealis. Here, geometric forms recall the structures of bridges and roads, reimagined as Technicolor pathways. \n\n6kpx PNG, edition of 8+1 AP. Marius Watz, @mariuswatz 2010.",
+      "price": 100000000,
+      "minted_at": "2021-08-26T19:57:46+00:00",
+      "artifact_uri": "ipfs://QmaTHw7mP8Lbg3J73gzKAbQMnpQCkVyGDKgGapp36qmwjb"
+    },
+    {
+      "token_id": "225400",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "UCracking-00 008",
+      "description": "Randomized subdivision and coloring of triangle geometry. 6kpx PNG, edition 6+1AP. Marius Watz @mariuswatz, 2014",
+      "price": null,
+      "minted_at": "2021-08-24T21:46:16+00:00",
+      "artifact_uri": "ipfs://QmZ4J1GaGYpidESBu1sQoVCnNzcFLLVbTTjjqbZ7WiHmjW"
+    },
+    {
+      "token_id": "225392",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "UCrackingF01 0014",
+      "description": "Randomized subdivision and coloring of triangle geometry. 10kpx PNG, edition 6+1AP. Marius Watz @mariuswatz, 2014-2021",
+      "price": 350000000,
+      "minted_at": "2021-08-24T21:42:46+00:00",
+      "artifact_uri": "ipfs://QmbMQjV3YGZrmXhqrWqNB5mMdWRj43PpEcgZTqoUaQZtBj"
+    },
+    {
+      "token_id": "224211",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "NShards03AB-B 015",
+      "description": "Still from unfinished software animation. 2160x3840px, procedural modeling, OpenGL. Edition of 50 + 2AP.  \n\nMarius Watz / @mariuswatz, 2014",
+      "price": 40000000,
+      "minted_at": "2021-08-24T13:31:36+00:00",
+      "artifact_uri": "ipfs://QmY5duQs6qfd9rg3XmfoKnvcvbCdpFfuyXoDMa3LiQdccd"
+    },
+    {
+      "token_id": "223606",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Bridge Hypotesis 01B 0003",
+      "description": "From the Bridge Hypothesis series. In Norse mythology Bifrost was the bridge between the mortal world and that of the gods, fashioned as a burning rainbow or manifested as the Aurora Borealis. Here, geometric forms recall the structures of bridges and roads, reimagined as Technicolor pathways. \n\n4500x6000px PNG, edition of 8+1 AP. Marius Watz, @mariuswatz 2010.",
+      "price": null,
+      "minted_at": "2021-08-24T05:45:06+00:00",
+      "artifact_uri": "ipfs://QmXiCaXrXnSuXSb96MNkHjxzeBnRDFBkq3o3LADB59CJpp"
+    },
+    {
+      "token_id": "217337",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Abstract01",
+      "description": "Abstract01 - Marius Watz, 2003\n\nStill from interactive drawing tool written in Processing in 2003. Created for the Abstraction Now exhibition at Künstlerhaus, Vienna. In 2010, I made a Javascript port using processing.js before it was ultimately rewritten in p5.js.\n\nI have used Processing as my primary creative tool since 2003, and all that time the Processing community has been critical to my work as an artist.\n\n4959x7000px PNG, edition of 25+2 AP. \nMinted for the 20th Anniversary of Processing, August 20-22, 2021.",
+      "price": 137000000,
+      "minted_at": "2021-08-20T22:32:30+00:00",
+      "artifact_uri": "ipfs://QmdooTrpFLfBDBTPfhisGtNrbJxhRr6uGQNR4W2gyEz8bp"
+    },
+    {
+      "token_id": "216235",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "",
+      "description": "From the Bridge Hypothesis series. In Norse mythology Bifrost was the bridge between the mortal world and that of the gods, fashioned as a burning rainbow or manifested as the Aurora Borealis. Here, geometric forms recall the structures of bridges and roads, reimagined as Technicolor pathways. \n\n4500x6000px PNG, edition of 8+1 AP. Marius Watz, @mariuswatz 2010.",
+      "price": null,
+      "minted_at": "2021-08-20T09:32:10+00:00",
+      "artifact_uri": "ipfs://QmbkMEnyzjnF1oxGpoBSzWR7gKrjSjJvyXnkTrYTXK7o2h"
+    },
+    {
+      "token_id": "214250",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Bridge Hypothesis 01B 0004",
+      "description": "From the Bridge Hypothesis series. In Norse mythology Bifrost was the bridge between the mortal world and that of the gods, fashioned as a burning rainbow or manifested as the Aurora Borealis. Here, geometric forms recall the structures of bridges and roads, reimagined as Technicolor pathways. \n\n6kpx PNG, edition of 8+1 AP. Marius Watz, @mariuswatz 2010.",
+      "price": null,
+      "minted_at": "2021-08-19T08:32:20+00:00",
+      "artifact_uri": "ipfs://QmVwYVjpzoVTk1cpXro5UdMEv6YopPLxxfrQpAnqFU1hfx"
+    },
+    {
+      "token_id": "214241",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Bridge Hypothesis 02C 0002",
+      "description": "From the Bridge Hypothesis series. In Norse mythology Bifrost was the bridge between the mortal world and that of the gods, fashioned as a burning rainbow or manifested as the Aurora Borealis. Here, geometric forms recall the structures of bridges and roads, reimagined as Technicolor pathways. \n\n6kpx PNG, edition of 8+1 AP. Marius Watz, @mariuswatz 2010.",
+      "price": 40000000,
+      "minted_at": "2021-08-19T08:26:40+00:00",
+      "artifact_uri": "ipfs://Qme26XipkT1nJGfS7V8RUbZD64Dpr5D6AerCjnKXbLhToj"
+    },
+    {
+      "token_id": "212764",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "BridgeACM02C 0004",
+      "description": "From the Bridge Hypothesis series. In Norse mythology Bifrost was the bridge between the mortal world and that of the gods, fashioned as a burning rainbow or manifested as the Aurora Borealis. Here, geometric forms recall the structures of bridges and roads, reimagined as Technicolor pathways. \n\n6kpx PNG, edition of 8+1 AP. Marius Watz, @mariuswatz 2010.",
+      "price": 49000000,
+      "minted_at": "2021-08-18T14:55:30+00:00",
+      "artifact_uri": "ipfs://Qmdbb16bCPuUUZCjY8Xdgy8SpZvySuyG39xC4RHPihFPSR"
+    },
+    {
+      "token_id": "212397",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Arcs03B3 0054",
+      "description": "Line drawing across virtual surface. Edition 6+1AP, PDF. Marius Watz, 2012.",
+      "price": null,
+      "minted_at": "2021-08-18T08:55:40+00:00",
+      "artifact_uri": "ipfs://QmS2mJw9YdwHeEjf4dCCDyWgpad9Yxb2VYsYvMHoiwkVG7"
+    },
+    {
+      "token_id": "212374",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Arcs03B3 0040",
+      "description": "Line drawing across virtual surface. Edition 6+1AP, PDF. Marius Watz, 2012.",
+      "price": null,
+      "minted_at": "2021-08-18T08:36:40+00:00",
+      "artifact_uri": "ipfs://QmUf2V6DQgAnoYSiDHeUpNt8bWNmjn8SP6bhmLqCMAe59Q"
+    },
+    {
+      "token_id": "212205",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Arcs03B3 0039",
+      "description": "Line drawing across virtual surface. Edition 6+1AP, PDF. Marius Watz, 2012.",
+      "price": null,
+      "minted_at": "2021-08-18T05:49:00+00:00",
+      "artifact_uri": "ipfs://QmXg445Uif1D2ghjd9ZYQjenNRqAbdduXbNn5QUaJSywzC"
+    },
+    {
+      "token_id": "211539",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Arcs03B3 0057",
+      "description": "Line drawing across virtual surface. Edition 6+1AP, PDF. Marius Watz, 2012.",
+      "price": null,
+      "minted_at": "2021-08-17T19:03:30+00:00",
+      "artifact_uri": "ipfs://QmPV2Yps4E1tkANqpLa7FXngTLnr1H1NGJoZmxmwubLw1n"
+    },
+    {
+      "token_id": "211422",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Catenary03A 17",
+      "description": "Catenary series, geometry created with physics simulation. 4000px PNG. Edition of 5 + 1AP. Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-08-17T17:22:30+00:00",
+      "artifact_uri": "ipfs://QmWehbp12VtGoVfP4dhbGBCSs8kp1HRzhw15aFwqehfZV6"
+    },
+    {
+      "token_id": "211396",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Catenary03A 15",
+      "description": "Catenary series, geometry created with physics simulation. 3500px PNG. Edition of 5 + 1AP. Marius Watz @mariuswatz",
+      "price": 150000000,
+      "minted_at": "2021-08-17T17:06:30+00:00",
+      "artifact_uri": "ipfs://QmTzJnH39JdvQHM9TGQq41bVohzynykcy3DuSRPPX1itTc"
+    },
+    {
+      "token_id": "185327",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "220px_gr01",
+      "description": "Still from Flash animation with a fat cap feel. Beziers, ActionScript, 2000. Edition of 5+2AP, SVG. Marius Watz @mariuswatz",
+      "price": 200000000,
+      "minted_at": "2021-07-27T17:35:02+00:00",
+      "artifact_uri": "ipfs://QmQ9Tcqy5ZujSc6wiGDizK5EAmEZ4eEqVLj6tv17iaw9sB"
+    },
+    {
+      "token_id": "185289",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "220px_bw02",
+      "description": "Still from Flash animation with a fat cap feel. Beziers, ActionScript, 2000. Edition of 5+2AP, SVG. Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-07-27T17:04:02+00:00",
+      "artifact_uri": "ipfs://QmTLMfGJKkksyXn9THwym4CrGHo2oXk2ZLBi2aug7X7M17"
+    },
+    {
+      "token_id": "160066",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Catenary03A 16",
+      "description": "Catenary series, geometry created with physics simulation. 3.5px PNG. Edition of 5 + 1AP. Marius Watz @mariuswatz",
+      "price": 223000000,
+      "minted_at": "2021-07-07T13:01:58+00:00",
+      "artifact_uri": "ipfs://QmbQnXM25dBjT9p4ynHVfsmUUCsDWmMzyJM9bvg5nCz4ZN"
+    },
+    {
+      "token_id": "157896",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "DeformModel02 0019-01",
+      "description": "Mesh deformed using custom software. 4.6kpx PNG, edition of 3+2AP. Created with Processing and Rhino",
+      "price": null,
+      "minted_at": "2021-07-02T17:10:18+00:00",
+      "artifact_uri": "ipfs://QmNQrUNAgMYwGze1iqZkCtDbyejiWPc3LudjdqrTVGQKE8"
+    },
+    {
+      "token_id": "14033",
+      "fa2_address": "KT1EpGgjQs73QfFJs9z7m1Mxm5MTnpC2tqse",
+      "platform": "KALAMINT",
+      "name": "Catenary03A 15",
+      "description": "Twisted surface created using physics simulation of connected mesh. 3500x3500px PNG, edition of 5 + 1AP.",
+      "price": null,
+      "minted_at": "2021-06-30T01:34:02+00:00",
+      "artifact_uri": "ipfs://QmTzJnH39JdvQHM9TGQq41bVohzynykcy3DuSRPPX1itTc"
+    },
+    {
+      "token_id": "14037",
+      "fa2_address": "KT1EpGgjQs73QfFJs9z7m1Mxm5MTnpC2tqse",
+      "platform": "KALAMINT",
+      "name": "Catenary03A 15",
+      "description": "Twisted surface created using physics simulation of connected mesh. 3500x3500px PNG, edition of 5 + 1AP.",
+      "price": null,
+      "minted_at": "2021-06-30T01:34:02+00:00",
+      "artifact_uri": "ipfs://QmTzJnH39JdvQHM9TGQq41bVohzynykcy3DuSRPPX1itTc"
+    },
+    {
+      "token_id": "14035",
+      "fa2_address": "KT1EpGgjQs73QfFJs9z7m1Mxm5MTnpC2tqse",
+      "platform": "KALAMINT",
+      "name": "Catenary03A 15",
+      "description": "Twisted surface created using physics simulation of connected mesh. 3500x3500px PNG, edition of 5 + 1AP.",
+      "price": null,
+      "minted_at": "2021-06-30T01:34:02+00:00",
+      "artifact_uri": "ipfs://QmTzJnH39JdvQHM9TGQq41bVohzynykcy3DuSRPPX1itTc"
+    },
+    {
+      "token_id": "14036",
+      "fa2_address": "KT1EpGgjQs73QfFJs9z7m1Mxm5MTnpC2tqse",
+      "platform": "KALAMINT",
+      "name": "Catenary03A 15",
+      "description": "Twisted surface created using physics simulation of connected mesh. 3500x3500px PNG, edition of 5 + 1AP.",
+      "price": null,
+      "minted_at": "2021-06-30T01:34:02+00:00",
+      "artifact_uri": "ipfs://QmTzJnH39JdvQHM9TGQq41bVohzynykcy3DuSRPPX1itTc"
+    },
+    {
+      "token_id": "14034",
+      "fa2_address": "KT1EpGgjQs73QfFJs9z7m1Mxm5MTnpC2tqse",
+      "platform": "KALAMINT",
+      "name": "Catenary03A 15",
+      "description": "Twisted surface created using physics simulation of connected mesh. 3500x3500px PNG, edition of 5 + 1AP.",
+      "price": null,
+      "minted_at": "2021-06-30T01:34:02+00:00",
+      "artifact_uri": "ipfs://QmTzJnH39JdvQHM9TGQq41bVohzynykcy3DuSRPPX1itTc"
+    },
+    {
+      "token_id": "13878",
+      "fa2_address": "KT1EpGgjQs73QfFJs9z7m1Mxm5MTnpC2tqse",
+      "platform": "KALAMINT",
+      "name": "Bridge Hypothesis 02C 0004",
+      "description": "Bridge Hypothesis is a series of generative architectural structures, originally created for a projected video piece. Also featured as artwork in Communications of the ACM, January 2010. \n\n6k px PNG, edition of 4 + 1 AP.",
+      "price": null,
+      "minted_at": "2021-06-29T20:35:34+00:00",
+      "artifact_uri": "ipfs://Qmdbb16bCPuUUZCjY8Xdgy8SpZvySuyG39xC4RHPihFPSR"
+    },
+    {
+      "token_id": "13881",
+      "fa2_address": "KT1EpGgjQs73QfFJs9z7m1Mxm5MTnpC2tqse",
+      "platform": "KALAMINT",
+      "name": "Bridge Hypothesis 02C 0004",
+      "description": "Bridge Hypothesis is a series of generative architectural structures, originally created for a projected video piece. Also featured as artwork in Communications of the ACM, January 2010. \n\n6k px PNG, edition of 4 + 1 AP.",
+      "price": null,
+      "minted_at": "2021-06-29T20:35:34+00:00",
+      "artifact_uri": "ipfs://Qmdbb16bCPuUUZCjY8Xdgy8SpZvySuyG39xC4RHPihFPSR"
+    },
+    {
+      "token_id": "13880",
+      "fa2_address": "KT1EpGgjQs73QfFJs9z7m1Mxm5MTnpC2tqse",
+      "platform": "KALAMINT",
+      "name": "Bridge Hypothesis 02C 0004",
+      "description": "Bridge Hypothesis is a series of generative architectural structures, originally created for a projected video piece. Also featured as artwork in Communications of the ACM, January 2010. \n\n6k px PNG, edition of 4 + 1 AP.",
+      "price": null,
+      "minted_at": "2021-06-29T20:35:34+00:00",
+      "artifact_uri": "ipfs://Qmdbb16bCPuUUZCjY8Xdgy8SpZvySuyG39xC4RHPihFPSR"
+    },
+    {
+      "token_id": "13879",
+      "fa2_address": "KT1EpGgjQs73QfFJs9z7m1Mxm5MTnpC2tqse",
+      "platform": "KALAMINT",
+      "name": "Bridge Hypothesis 02C 0004",
+      "description": "Bridge Hypothesis is a series of generative architectural structures, originally created for a projected video piece. Also featured as artwork in Communications of the ACM, January 2010. \n\n6k px PNG, edition of 4 + 1 AP.",
+      "price": null,
+      "minted_at": "2021-06-29T20:35:34+00:00",
+      "artifact_uri": "ipfs://Qmdbb16bCPuUUZCjY8Xdgy8SpZvySuyG39xC4RHPihFPSR"
+    },
+    {
+      "token_id": "13873",
+      "fa2_address": "KT1EpGgjQs73QfFJs9z7m1Mxm5MTnpC2tqse",
+      "platform": "KALAMINT",
+      "name": "Catenary03A 17",
+      "description": "Twisted surface created using physics simulation of connected mesh. Edition of 5 + 1AP.",
+      "price": null,
+      "minted_at": "2021-06-29T20:15:34+00:00",
+      "artifact_uri": "ipfs://QmWehbp12VtGoVfP4dhbGBCSs8kp1HRzhw15aFwqehfZV6"
+    },
+    {
+      "token_id": "13872",
+      "fa2_address": "KT1EpGgjQs73QfFJs9z7m1Mxm5MTnpC2tqse",
+      "platform": "KALAMINT",
+      "name": "Catenary03A 17",
+      "description": "Twisted surface created using physics simulation of connected mesh. Edition of 5 + 1AP.",
+      "price": null,
+      "minted_at": "2021-06-29T20:15:34+00:00",
+      "artifact_uri": "ipfs://QmWehbp12VtGoVfP4dhbGBCSs8kp1HRzhw15aFwqehfZV6"
+    },
+    {
+      "token_id": "13875",
+      "fa2_address": "KT1EpGgjQs73QfFJs9z7m1Mxm5MTnpC2tqse",
+      "platform": "KALAMINT",
+      "name": "Catenary03A 17",
+      "description": "Twisted surface created using physics simulation of connected mesh. Edition of 5 + 1AP.",
+      "price": null,
+      "minted_at": "2021-06-29T20:15:34+00:00",
+      "artifact_uri": "ipfs://QmWehbp12VtGoVfP4dhbGBCSs8kp1HRzhw15aFwqehfZV6"
+    },
+    {
+      "token_id": "13871",
+      "fa2_address": "KT1EpGgjQs73QfFJs9z7m1Mxm5MTnpC2tqse",
+      "platform": "KALAMINT",
+      "name": "Catenary03A 17",
+      "description": "Twisted surface created using physics simulation of connected mesh. Edition of 5 + 1AP.",
+      "price": null,
+      "minted_at": "2021-06-29T20:15:34+00:00",
+      "artifact_uri": "ipfs://QmWehbp12VtGoVfP4dhbGBCSs8kp1HRzhw15aFwqehfZV6"
+    },
+    {
+      "token_id": "13874",
+      "fa2_address": "KT1EpGgjQs73QfFJs9z7m1Mxm5MTnpC2tqse",
+      "platform": "KALAMINT",
+      "name": "Catenary03A 17",
+      "description": "Twisted surface created using physics simulation of connected mesh. Edition of 5 + 1AP.",
+      "price": null,
+      "minted_at": "2021-06-29T20:15:34+00:00",
+      "artifact_uri": "ipfs://QmWehbp12VtGoVfP4dhbGBCSs8kp1HRzhw15aFwqehfZV6"
+    },
+    {
+      "token_id": "155816",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Conical 0014",
+      "description": "Visual distortion field, a hypercone approximated by fields of lines. Originally created for Crónica Electrónica music label. Edition 1/1, 4724x4724px PNG. 2008, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-06-28T18:49:58+00:00",
+      "artifact_uri": "ipfs://QmSBZfrbg7Waux7N51AzXCv5ZaEUtujJ6Xfh829CTW9fPa"
+    },
+    {
+      "token_id": "142767",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Conical 0008B",
+      "description": "Visual distortion field, a hypercone approximated by fields of lines. Originally created for Crónica Electrónica music label. Edition 1/1, 4724x4724px PNG. 2008, Marius Watz @mariuswatz",
+      "price": 3000000000,
+      "minted_at": "2021-06-20T12:02:18+00:00",
+      "artifact_uri": "ipfs://QmcLFbc1gjwtE5tyrPXPyqZBXJRPo79A3t6xSdDFfs9rXg"
+    },
+    {
+      "token_id": "142671",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Conical 0018",
+      "description": "Visual distortion field, a hypercone approximated by fields of lines. Originally created for Crónica Electrónica music label. Edition 1/1, 4724x4724px PNG. 2008, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-06-20T10:27:30+00:00",
+      "artifact_uri": "ipfs://QmTmCXqppBAL4vAvphnNhT2N8EnEKjdpSeiJKZtkQqSoq6"
+    },
+    {
+      "token_id": "142667",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Conical 0008",
+      "description": "Visual distortion field, a hypercone approximated by fields of lines. Originally created for Crónica Electrónica music label. Edition 1/1, 4724x4724px PNG. 2008, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-06-20T10:20:30+00:00",
+      "artifact_uri": "ipfs://QmYc1tHBcEsk3UDuvpKWqRJLPhFq6v6xNu1741QfErSD3o"
+    },
+    {
+      "token_id": "142665",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Conical 0006",
+      "description": "Visual distortion field, a hypercone approximated by fields of lines. Originally created for Crónica Electrónica music label. Edition 1/1, 4724x4724px PNG. 2008, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-06-20T10:16:30+00:00",
+      "artifact_uri": "ipfs://Qmeyxwv2CKQ3neAnfMvxvjKSGw4i3B4LuUQzwGWgMKnx9M"
+    },
+    {
+      "token_id": "132163",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "SGeomMono 001",
+      "description": "Sketch, monochrome geometry rendered with hatch shading. 3000x3000px PNG, edition 5+1 AP. Marius Watz @mariuswatz",
+      "price": 666000000,
+      "minted_at": "2021-06-14T21:38:42+00:00",
+      "artifact_uri": "ipfs://QmUhAuWj7HMbDDUfLnobtzAZU7qCUSyRiiaxwrnDQWMkBh"
+    },
+    {
+      "token_id": "121862",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Isoland03 017",
+      "description": "Sketches for unrealized project. Lopoly geometries created using marching cubes algorithm. This 1600x1000px screenshot is released for #HEN100 as a nod Isoland002-04A, my first H=N release (March 23, 2021, minted as a test.)",
+      "price": 3750000,
+      "minted_at": "2021-06-08T22:04:38+00:00",
+      "artifact_uri": "ipfs://QmUQTNF7GzKSDphZsgGCYhHaPAyt85K6aAnpQygdCVcTs5"
+    },
+    {
+      "token_id": "119772",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "SGeomMonoStar 025",
+      "description": "Sketch, geometry rendered with hatch shading. 4kpx PNG, edition 5+1 AP. Marius Watz @mariuswatz",
+      "price": 500000000,
+      "minted_at": "2021-06-07T23:19:22+00:00",
+      "artifact_uri": "ipfs://QmUt5GyPDeaGfgyYqifw2B88mfSBwZmDYsbKpnKAvF1AvD"
+    },
+    {
+      "token_id": "112226",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "SGeoMono 005",
+      "description": "Sketch, monochrome geometry rendered with hatch shading. 2960x2960px PNG, edition 5+1 AP. Marius Watz @mariuswatz",
+      "price": 777000000,
+      "minted_at": "2021-06-03T12:48:38+00:00",
+      "artifact_uri": "ipfs://QmU56sBcmt4UZ2hLTpA2hizePkya4qAWub9jcnPkCf3Gw5"
+    },
+    {
+      "token_id": "112166",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "SGeoMono 003",
+      "description": "Sketch, geometry rendered with hatch shading. Edition 5+1 AP. Marius Watz @mariuswatz",
+      "price": 300000000,
+      "minted_at": "2021-06-03T11:47:54+00:00",
+      "artifact_uri": "ipfs://QmSRAAZcEzj9AAn5Rk3ictjb29MkJCDJtYw5gYiWoHg65B"
+    },
+    {
+      "token_id": "92314",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Arcs05AP 0010",
+      "description": "Drawing along curved surfaces. System originally created for a series of screen prints. Edition of 6 + 2 AP, 4k PNG, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-05-21T21:48:54+00:00",
+      "artifact_uri": "ipfs://QmVn7s2BsmaK3KJTwxruusBHCjkahpqmZS5igSzCgaN6rQ"
+    },
+    {
+      "token_id": "92123",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "220px_01",
+      "description": "Still from Flash animation with a fat cap feel. Beziers, ActionScript, 2000. 4k PNG, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-05-21T19:25:34+00:00",
+      "artifact_uri": "ipfs://QmQSPD6zrh79TjbHU3GB1AkukLNeSRTg3ptCHGaqGL6y7k"
+    },
+    {
+      "token_id": "90408",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Arcs05AP 0010",
+      "description": "Drawing along curved surfaces. System originally created for a series of screen prints. Edition of 6 + 2 AP, 4k PNG, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-05-20T20:49:22+00:00",
+      "artifact_uri": "ipfs://QmeUBLXHHBEn1ke6HSwkHwZje4v8r87Xj73LvWa7usRWya"
+    },
+    {
+      "token_id": "87007",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "UCracking02AA 020 - Baltan Labs - Pantone 111+639",
+      "description": "Unique variant of UCracking, created for Baltan Laboratories Quarterly publication. Printed as duotone in Pantone 111/639 colors, August 2013. 24x35 cm, 300 DPI PNG. Edition of 3 +1 AP, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-05-18T21:28:58+00:00",
+      "artifact_uri": "ipfs://Qmd7EMQHEDvy68FetzCjJgxx1PEq6To8sVXWhwoRmC2imi"
+    },
+    {
+      "token_id": "67828",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "NShards11AB-C 019",
+      "description": "Still from unfinished software animation. Edition of 10 + 2 AP, 2160x3840px, procedural modeling, OpenGL. Marius Watz / @mariuswatz, 2014",
+      "price": 680000000,
+      "minted_at": "2021-05-07T10:59:01+00:00",
+      "artifact_uri": "ipfs://QmXF3yycZhJZJuSu3ZgQUkgsHWiT6aeUy1cWsAWpm3n1Ft"
+    },
+    {
+      "token_id": "67727",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "NShards11AB-C 047",
+      "description": "Still from unfinished software animation. 2160x3840px, procedural modeling, OpenGL. Edition of 10 + 2AP. Marius Watz / @mariuswatz, 2014",
+      "price": 1000000000,
+      "minted_at": "2021-05-07T09:07:21+00:00",
+      "artifact_uri": "ipfs://Qmb3GuLiwSb6vYyuyZ6VbEkmHF9Qixz2zFfLNwyt9DWVja"
+    },
+    {
+      "token_id": "67643",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "NShards11AB-C 047",
+      "description": "Still from unfinished software animation. 2160x3840px, procedural modeling, OpenGL, bonus bounding boxes. Edition of 10 + 2AP. Marius Watz / @mariuswatz, 2014",
+      "price": null,
+      "minted_at": "2021-05-07T07:01:21+00:00",
+      "artifact_uri": "ipfs://Qmbuit7NcnKiWM12iYsi1uVuMzwyTEeRGkrVXhGTuwnyCo"
+    },
+    {
+      "token_id": "67600",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Arcs05AP 0028",
+      "description": "Drawing along curved surfaces. System originally created for a series of screen prints. Edition of 6 + 2 AP, 4k PNG, Marius Watz @mariuswatz",
+      "price": 140000000,
+      "minted_at": "2021-05-07T06:00:21+00:00",
+      "artifact_uri": "ipfs://QmTn3BHbS8p7Sv4qPh44EdXh4Q6m7jE3N9aHbeBW4sWKW6"
+    },
+    {
+      "token_id": "67586",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Arcs05AP 0006",
+      "description": "Drawing along curved surfaces. System originally created for a series of screen prints. Edition of 6 + 2 AP, 4k PNG, Marius Watz @mariuswatz",
+      "price": 888000000,
+      "minted_at": "2021-05-07T05:38:21+00:00",
+      "artifact_uri": "ipfs://QmeHzF8YgtzMCscbUEALhyZrUVDoTvCUCiYHy4VxYKZnVQ"
+    },
+    {
+      "token_id": "65944",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Arcs05AP 0036",
+      "description": "Drawing along curved surfaces. System originally created for a series of screen prints. 4k PNG, Marius Watz @mariuswatz",
+      "price": 1000000000,
+      "minted_at": "2021-05-06T11:13:45+00:00",
+      "artifact_uri": "ipfs://QmahAJic1EYbE5TPvcvsZfWbs4LFyvUxMe2knLS7YnY6dk"
+    },
+    {
+      "token_id": "65936",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Arcs05AP 0003",
+      "description": "Drawing along curved surfaces. System originally created for a series of screen prints. 4k PNG, Marius Watz @mariuswatz",
+      "price": null,
+      "minted_at": "2021-05-06T11:10:45+00:00",
+      "artifact_uri": "ipfs://Qmc2VqiBCAZmbHw2pZsSKJeWNKmPtu5dvnxHaaJs9TjLJR"
+    },
+    {
+      "token_id": "56655",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "NShards12AB-C 008",
+      "description": "Still from unfinished software animation. 2160x3840px, procedural modeling, OpenGL, bonus bounding boxes. Marius Watz / @mariuswatz, 2014",
+      "price": 90000000,
+      "minted_at": "2021-04-30T17:33:04+00:00",
+      "artifact_uri": "ipfs://QmPYwoVZtzW9pP9zVPqA5T8EMfQwgJLy4XRt4i6vhPBPAz"
+    },
+    {
+      "token_id": "51736",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "NShards12AB-C 005",
+      "description": "Still from unfinished software animation. 2160x3840px, procedural modeling, OpenGL, bonus bounding boxes. Marius Watz / @mariuswatz, 2014",
+      "price": 100000000,
+      "minted_at": "2021-04-27T15:51:44+00:00",
+      "artifact_uri": "ipfs://QmSo6AJydfY3wGBRwHYSgfartuE9dbawsxJ3zfGpiWF9XA"
+    },
+    {
+      "token_id": "49575",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Modular Lattice Holo 01B 009",
+      "description": "Lattice form created from lopoly geometry. From a series of 3D printed objects created for the launch of HOLO Magazine, 2013. Released for #OBJKT4OBJKT 2nd edition.",
+      "price": 1000000,
+      "minted_at": "2021-04-26T05:59:48+00:00",
+      "artifact_uri": "ipfs://QmYLqs2UBKiqXJWMRxw9XFTaT2t7PRw2pqtGnQSt6vN3Ao"
+    },
+    {
+      "token_id": "41430",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "NShards11AB-C 067",
+      "description": "Still from unfinished software animation. 2160x3840px, procedural modeling, OpenGL. Marius Watz / @mariuswatz, 2014",
+      "price": 300000000,
+      "minted_at": "2021-04-21T15:52:17+00:00",
+      "artifact_uri": "ipfs://QmZEndC8vrEo7hZMNJHRPSYSwPggXooPQ6tWZ3GZ4w31YM"
+    },
+    {
+      "token_id": "40343",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "NovoShards11AB-C 040",
+      "description": "Still from unfinished software animation. 2160x3840px, procedural modeling, OpenGL. Marius Watz / @mariuswatz, 2014",
+      "price": 1000000000,
+      "minted_at": "2021-04-20T20:47:20+00:00",
+      "artifact_uri": "ipfs://QmXFUy4jwJvncY95BLxCSypBVkmV5wE6ryazhJXi7rV9fd"
+    },
+    {
+      "token_id": "38966",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "NShards11AB-C 052",
+      "description": "Still from unfinished software animation. 2160x3840px, procedural modeling, OpenGL. Marius Watz / @mariuswatz, 2014",
+      "price": 110000000,
+      "minted_at": "2021-04-19T17:28:48+00:00",
+      "artifact_uri": "ipfs://QmW825v3wFRHLdwaFU8UhobiXhba4HHkdDzSWyoXNV4FUA"
+    },
+    {
+      "token_id": "35007",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "NShards03A-B 019",
+      "description": "Still from unfinished software animation. 1800x2700px, procedural modeling, OpenGL. Marius Watz / @mariuswatz, 2014",
+      "price": 2500000000,
+      "minted_at": "2021-04-16T08:42:54+00:00",
+      "artifact_uri": "ipfs://QmQMk9wXj8oRdMDFc8ui9ZDtVVbtN7J4cqCwkmpPqd1geb"
+    },
+    {
+      "token_id": "34321",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "NShards03A-B 016",
+      "description": "Still from unfinished software animation. 1800x2700px, procedural modeling, OpenGL. Marius Watz / @mariuswatz, 2014",
+      "price": 150000000,
+      "minted_at": "2021-04-15T19:03:11+00:00",
+      "artifact_uri": "ipfs://QmUHqfW8NwHfu3ZVNydKuxeSgmnwjjZ6MPYqBaB1yQUwrx"
+    },
+    {
+      "token_id": "34302",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "NShards03A-B 017",
+      "description": "Still from unfinished software animation. 1800x2700px, procedural modeling, OpenGL. Marius Watz / @mariuswatz, 2014",
+      "price": 2000000000,
+      "minted_at": "2021-04-15T18:45:11+00:00",
+      "artifact_uri": "ipfs://QmWTqffe6irdfHhtsL4TVTPdzH5Z8UagzTVWLwuKpe4Qwo"
+    },
+    {
+      "token_id": "29984",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Catenary03B 02B",
+      "description": "Deformed mesh modeled with catenary curve simulation. 4K PNG, Marius Watz @mariuswatz",
+      "price": 1000000000,
+      "minted_at": "2021-04-11T22:52:55+00:00",
+      "artifact_uri": "ipfs://QmT824wY1GAQ82D9q1cagWYjKKyCLjuXKNRN5jgWXnRvGe"
+    },
+    {
+      "token_id": "27138",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Catenary02B-1 65",
+      "description": "Deformed mesh modeled with catenary curve simulation. 4K PNG, Marius Watz",
+      "price": 960000000,
+      "minted_at": "2021-04-09T05:47:35+00:00",
+      "artifact_uri": "ipfs://QmeQWvuMtzCzZggneQyiJ6WqBRddLEwf8WrkAswJX2FGtb"
+    },
+    {
+      "token_id": "26758",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Catenary02B-1 68",
+      "description": "Deformed mesh modeled with catenary curve simulation. 4K PNG, Marius Watz",
+      "price": null,
+      "minted_at": "2021-04-08T21:06:35+00:00",
+      "artifact_uri": "ipfs://QmarLUomYP9KLrryXdhQTQcMRXWKBwnZLs3XRefZabm4zj"
+    },
+    {
+      "token_id": "25743",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Arcs03B3 0040",
+      "description": "Line drawing across virtual surface. SVG, Marius Watz",
+      "price": 36000000,
+      "minted_at": "2021-04-07T19:50:59+00:00",
+      "artifact_uri": "ipfs://QmQLGVVKg2tr6aGNxfap32YFQcBXQdRWThLfAyvVhEJ2Yr"
+    },
+    {
+      "token_id": "25547",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Arcs03B3 0057",
+      "description": "Line drawing across virtual surface. SVG, Marius Watz",
+      "price": null,
+      "minted_at": "2021-04-07T16:01:11+00:00",
+      "artifact_uri": "ipfs://Qmbk6jomY9Q2dXJuufs9H4fwKW2FNx7PhBES5pNcNYKvzx"
+    },
+    {
+      "token_id": "25532",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Arcs03B3 0039",
+      "description": "Line drawing across virtual surface. SVG, Marius Watz",
+      "price": null,
+      "minted_at": "2021-04-07T15:50:11+00:00",
+      "artifact_uri": "ipfs://QmPMBtHPTgXd1ENXqBwreRQBjQxe6bWiNrLCQGosQju5PY"
+    },
+    {
+      "token_id": "25505",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Arcs03B3 0054",
+      "description": "Line drawing across virtual surface. SVG, Marius Watz",
+      "price": null,
+      "minted_at": "2021-04-07T15:04:51+00:00",
+      "artifact_uri": "ipfs://QmasQNtexw35gy4zber83gbibA5b9AQbCR7ACTYWwpHTTJ"
+    },
+    {
+      "token_id": "25264",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Exploder2016 0032-35",
+      "description": "Wireframe composition based on software animation. Marius Watz, 2016. @mariuswatz",
+      "price": null,
+      "minted_at": "2021-04-07T07:05:35+00:00",
+      "artifact_uri": "ipfs://QmX7pm8xbztMz5CJZZoCYEccckz3HsgAR3vFmmtimdn53A"
+    },
+    {
+      "token_id": "20236",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "UCracking-ssd144-12 004",
+      "description": "Subdivision geometry. 4k png, DM on Twitter for higher res.",
+      "price": null,
+      "minted_at": "2021-04-01T22:01:35+00:00",
+      "artifact_uri": "ipfs://QmYctwVj7J86DsKvUYDtgEDuSUXAjorVawr7tnpyHAKAGY"
+    },
+    {
+      "token_id": "20157",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "UCracking21 0008",
+      "description": "Subdivision geometry.",
+      "price": null,
+      "minted_at": "2021-04-01T21:03:35+00:00",
+      "artifact_uri": "ipfs://QmbatPcLffiKrPjQKf2ypN9kWfqMJwzU1DpBXH6xgMJLUk"
+    },
+    {
+      "token_id": "16531",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "UCracking03D02 015-4k",
+      "description": "Subdivision geometry. 4k png.",
+      "price": null,
+      "minted_at": "2021-03-29T16:08:24+00:00",
+      "artifact_uri": "ipfs://QmYicmyDCh9D2RxQSaCxC1yLig8VRkJ5UQRBkaC9GKjbjp"
+    },
+    {
+      "token_id": "15833",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "UCracking-ExploderSTL01A 0047F 4K",
+      "description": "3D geometry manipulated by iterative triangle subdision. 4000x4000 px PNG, minted for #OBJKT4OBJKT.",
+      "price": 9800000,
+      "minted_at": "2021-03-28T19:24:56+00:00",
+      "artifact_uri": "ipfs://QmSpbrtVELY8XZRjHPgsMpAMauxd3i9jdqmghyqKn6tNBd"
+    },
+    {
+      "token_id": "15536",
+      "fa2_address": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "platform": "HEN",
+      "name": "Isoland002-04A",
+      "description": "Sketches for unrealized project. Lopoly geometries created using marching cubes algorithm.",
+      "price": null,
+      "minted_at": "2021-03-28T12:53:56+00:00",
+      "artifact_uri": "ipfs://QmbJqkzyFZrt6ESGqhfGxxEfzjzDRHpZzXGZ4fy4Qyrsy2"
+    }
+  ]
+}

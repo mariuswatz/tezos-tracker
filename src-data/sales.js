@@ -60,9 +60,6 @@ export async function getHoldings(wallet) {
   const csvColumns = [TIME, OPHASH, TYPE, PLATFORM, TOKEN_ID, PRICE, EDITIONS, NAME, SELLER, BUYER, FA2, URL, THUMBNAIL]
 
   let csv = getCSV(query, csvColumns)
-  csv.forEach((row) => {
-    // if (csv.indexOf(row) < 101) console.log(row)
-  })
 
   let out = toCSV(csv, '\t')
   fs.writeFileSync(`output/sales.csv`, out.join('\n'))

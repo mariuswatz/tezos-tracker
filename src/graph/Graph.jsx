@@ -40,7 +40,7 @@ const Graph = ({ data, width, height }) => {
   }
 
   const circ = (x, y, r, fill, stroke = 'none', id) => {
-    return <circle cx={x} cy={y} r={r} fill={fill} stroke={stroke} id={id} />
+    return <circle cx={x} cy={y} r={r} fill={fill} stroke={stroke} key={`${x} ${id}`} id={id} />
   }
 
   const rect = (x, y, w, h, fill, stroke = 'none', id) => {

@@ -3,16 +3,48 @@ import reactLogo from './assets/react.svg'
 import Tokens from './Tokens'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Papa from 'papaparse'
+import Markets from './graph/Markets'
 
 function App() {
   const [count, setCount] = useState(0)
   const [tokenData, setTokenData] = useState(undefined)
+  const [marketData, setMarketData] = useState(undefined)
   const size = useWindowSize()
 
+  const fetchCSV = () => {
+    const csvFile = "/data/20230515-sales_volume_week.report.lv-dao.xyz.csv";
+    console.log('fetch CSV')
+    fetch(csvFile)
+      .then((response) => {
+        return response.text()
+      })
+      .then((data) => {
+        console.log(data)
+
+        Papa.parse(data, {
+          header: true,
+          skipEmptyLines: true,
+          complete: function (results) {
+            setMarketData(results.data)
+          },
+        });
+        // const records = parse(data, {
+        //   columns: true,
+        //   skip_empty_lines: true
+        // })
+
+        // console.log(records)
+      })
+      .catch((e) => {
+        console.log(e.message)
+      })
+  }
   const fetchJson = () => {
     console.log('fetch')
     fetch('/data/creations.json')
       .then((response) => {
+        console.log(response)
         return response.json()
       })
       .then((data) => {
@@ -30,6 +62,7 @@ function App() {
   return (
     <div className="App">
       <h1>Tezos Artist Tracker</h1>
+      <Markets data={marketData} width={100} height={100} />
       {tokenData && <Tokens input={tokenData.tokens} size={size} />}
       {!tokenData && <div>Loading</div>}
     </div>

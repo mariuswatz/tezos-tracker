@@ -11,12 +11,16 @@
   },
   "dependencies": {
     "@svgdotjs/svg.js": "^3.1.2",
+    "d3-fetch": "^3.0.1",
     "dayjs": "^1.11.7",
     "graphql": "^16.6.0",
     "graphql-request": "^5.2.0",
+    "papaparse": "^5.4.1",
+    "plotly.js": "^2.23.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-resolution": "^1.0.2",
+    "react-plotly.js": "^2.6.0",
     "use-debounce": "^9.0.3"
   },
   "devDependencies": {

@@ -1,19 +1,20 @@
+export const TEZTOK_API = 'https://api.teztok.com/v1/graphql'
+export const YYMMDDHHMM = 'YYYYMMDD HH:mm'
+
 export function formatTz(amount) {
-  if (!isNumber(amount)) {
-    return '–'
-  }
+  // if (!isNumber(amount)) {
+  //   return '–'
+  // }
 
   const amountFixed = (amount / 1000000).toFixed(2)
-  return `${
-    amountFixed.endsWith('.00') ? amountFixed.slice(0, -3) : amountFixed
-  } ꜩ`
+  return `${amountFixed.endsWith('.00') ? amountFixed.slice(0, -3) : amountFixed}`
 }
 
 export function shortenTzAddress(address) {
   return `${address.substr(0, 5)}…${address.substr(-5)}`
 }
 
-function getTokenLink(token) {
+export function getTokenLink(token) {
   switch (token.platform) {
     case 'HEN': {
       return `https://teia.art/objkt/${token.token_id}`

@@ -4,10 +4,7 @@ const TEZTOK_API = 'https://api.teztok.com/v1/graphql'
 
 export const QueryGetCreations = gql`
   query getCreations($artistAddress: String!) {
-    tokens(
-      where: { artist_address: { _eq: $artistAddress } }
-      order_by: { minted_at: desc }
-    ) {
+    tokens(where: { artist_address: { _eq: $artistAddress } }, order_by: { minted_at: desc }) {
       fa2_address
       platform
       token_id
@@ -22,6 +19,7 @@ export const QueryGetCreations = gql`
       description
       mime_type
       artifact_uri
+      thumbnail_uri
     }
   }
 `
@@ -47,22 +45,74 @@ const QuerySalesString = `query getSales {
     }
 }`
 
+export const QuerySales = `
+  query getSales($wallet: String!) {
+    events(
+      where: { implements: { _eq: "SALE" }, seller_address: { _eq: $wallet } }
+      order_by: { timestamp: asc }
+    ) {
+      ophash
+      type
+      timestamp
+      seller_address
+      buyer_address
+      price
+      token {
+        platform
+        fa2_address
+        token_id
+        mime_type
+        name
+        editions
+        thumbnail_uri
+        fx_collection_thumbnail_uri
+      }
+    }
+  }
+`
+
+export const QueryCollects = `
+  query getSales($wallet: String!) {
+    events(
+      where: { implements: { _eq: "SALE" }, buyer_address: { _eq: $wallet } }
+      order_by: { timestamp: asc }
+    ) {
+      ophash
+      type
+      timestamp
+      seller_address
+      buyer_address
+      price
+      token {
+        platform
+        fa2_address
+        token_id
+        mime_type
+        name
+        editions
+        thumbnail_uri
+        fx_collection_thumbnail_uri
+      }
+    }
+  }
+`
+
 async function execQuery(query) {
   return await request(TEZTOK_API, query, {})
 }
 
-export const getSales = (tokens) => {
+const getSales = (tokens) => {
   const pos = QuerySalesString.indexOf('#TOKENS')
   let query = QuerySalesString.substring(0, pos)
 
+  tokens = tokens.tokens
   tokens.forEach((tok) => {
-    console.log(tok)
     query += `  \n{ fa2_address: { _eq: "${tok['fa2_address']}" }, token_id: { _eq: "${tok['token_id']}" } },`
     // console.log(tok["token_id"],tok["fa2_address"])
   })
 
   query += QuerySalesString.substring(pos + 7)
-  console.log(query)
+  console.log('getSales - ' + tokens.length + ' tokens')
 
   return execQuery(query)
 }

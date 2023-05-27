@@ -35,6 +35,7 @@ import {
   ROYALTY,
   getUserInfo,
   getAlias,
+  calcRoyaltyPayment,
 } from './util.js'
 import { toEUR } from './xtz-historical.js'
 
@@ -133,7 +134,7 @@ export async function getHoldings(wallet) {
     'utf-8'
   )
 
-  fs.writeFileSync(`output/${walletAlias}-sales.json`, JSON.stringify(query), 'utf-8')
+  // fs.writeFileSync(`output/${walletAlias}-sales.json`, JSON.stringify(query), 'utf-8')
 
   console.log('Sales: ', query.events ? query.events.length : 'no events!')
   // sortEvents(query)
@@ -171,7 +172,10 @@ export async function getHoldings(wallet) {
     )
 
   if (otherSales.events.length > 0) {
-    // fs.writeFileSync(`output/${timeStr}-sales-other.csv`, toCSV(getTokenCSV(otherSales, csvColumns), '\t').join('\n'))
+    fs.writeFileSync(
+      `output/${walletAlias}-sales-other.csv`,
+      toCSV(getTokenCSV(otherSales, csvColumns), '\t').join('\n')
+    )
 
     getSalesGains(collects, otherSales).then((diff) => {
       fs.writeFileSync(`output/${walletAlias}-sales-gains.csv`, toCSV(diff, '\t').join('\n'), 'utf-8')
@@ -189,6 +193,9 @@ export async function getSalesGains(collects, sales) {
     'buy_eur',
     'sale_price',
     'sale_eur',
+    ROYALTY,
+    'royalty_paid',
+    'royalty_paid_eur',
     'gain',
     'gain_eur',
     'name',
@@ -210,7 +217,10 @@ export async function getSalesGains(collects, sales) {
     })
 
     if (collectEv) {
-      let gain = ev.price - collectEv.price
+      let royalty_paid = calcRoyaltyPayment(ev)
+      let royalty_paid_eur = calcRoyaltyPayment(ev, true)
+
+      let gain = ev.price - collectEv.price - royalty_paid
       sum += gain
       high = Math.max(high, gain)
       highEur = Math.max(highEur, toEUR(ev.timestamp, gain))
@@ -224,6 +234,9 @@ export async function getSalesGains(collects, sales) {
         nf(toEUR(collectEv.timestamp, collectEv.price)),
         formatTz(ev.price),
         nf(toEUR(ev.timestamp, ev.price)),
+        ev.token[ROYALTY] / 10000,
+        formatTz(royalty_paid),
+        nf(royalty_paid_eur),
         formatTz(gain),
         nf(toEUR(ev.timestamp, ev.price) - toEUR(collectEv.timestamp, collectEv.price)),
         ev.token.name,

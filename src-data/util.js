@@ -43,7 +43,7 @@ export function toCSV(csv, delimiter) {
 
 export function loadTzProfiles() {
   if (fs.existsSync('./output/tzProfiles.json')) {
-    let data = JSON.parse(fs.readFileSync('./src-data/tzProfiles.json', 'utf-8'))
+    let data = JSON.parse(fs.readFileSync('./output/tzProfiles.json', 'utf-8'))
     Object.keys(data).forEach((key) => {
       tzProfiles[key] = data[key]
     })
@@ -97,6 +97,15 @@ export function getAlias(wallet) {
   } else return wallet
 }
 
+export function calcRoyaltyPayment(sale, inEuro = false) {
+  let royalty
+  if (sale.token[SELLER] != sale.token[ARTIST]) {
+    royalty = sale.price * (0.01 * (sale.token[ROYALTY] / 10000))
+  }
+
+  return inEuro ? toEUR(sale.timestamp, royalty) : royalty
+}
+
 export function getTokenCSV(tokens, csvColumns) {
   let rows = [csvColumns]
 
@@ -104,7 +113,7 @@ export function getTokenCSV(tokens, csvColumns) {
     const row = []
     csvColumns.forEach((col) => {
       if (col == AMOUNT) row.push(ev.amount ? ev.amount : 1)
-      if (col == ARTIST) row.push(getAlias(ev.token[ARTIST])) // row.push(ev.token.artist_address)
+      if (col == ARTIST) row.push(getAlias(ev.token[ARTIST]))
       if (col == BUYER) row.push(getAlias(ev.buyer_address))
       if (col == EDITIONS) row.push(ev.token.editions)
       if (col == FA2) row.push(ev.token.fa2_address)
@@ -120,14 +129,12 @@ export function getTokenCSV(tokens, csvColumns) {
       if (col == 'sales_volume') row.push(formatTz(ev.token.sales_volume))
       if (col == ROYALTY) row.push(nf(ev.token.royalties_total / 10000))
       if (col == 'royalty_paid') {
-        if (ev.token[SELLER] != ev.token[ARTIST]) {
-          row.push(formatTz(ev.price * (0.01 * (ev.token[ROYALTY] / 10000))))
-        } else row.push('')
+        let paid = calcRoyaltyPayment(ev)
+        row.push(paid ? formatTz(paid) : '')
       }
       if (col == 'royalty_paid_eur') {
-        if (ev.token[SELLER] != ev.token[ARTIST]) {
-          row.push(nf(toEUR(ev.timestamp, ev.price * (0.01 * (ev.token[ROYALTY] / 10000)))))
-        } else row.push('')
+        let paid = calcRoyaltyPayment(ev, true)
+        row.push(paid ? formatTz(paid) : '')
       }
       if (col == TIME) row.push(dayjs(ev.timestamp).format(YYMMDDHHMM))
       if (col == TOKEN_ID) row.push(ev.token.token_id)
@@ -154,6 +161,7 @@ export function clean(str, maxChar) {
 }
 
 export function nf(str) {
+  if (!str) return ''
   let out = str
   if (typeof str === 'number') out = str.toLocaleString(LOCALE, { maximumFractionDigits: 2 })
   else console.log(`not number? '${str}'`)
@@ -162,6 +170,7 @@ export function nf(str) {
 }
 
 export function formatTz(amount) {
+  if (!amount) return ''
   return nf(amount / 1000000)
 }
 

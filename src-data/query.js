@@ -70,6 +70,8 @@ export const QuerySales = `
         token_id
         mime_type
         name
+        royalties_total
+        sales_volume		
         editions
         thumbnail_uri
         fx_collection_thumbnail_uri
@@ -100,6 +102,30 @@ export const QueryCollects = `
         editions
         thumbnail_uri
         fx_collection_thumbnail_uri
+      }
+    }
+  }
+`
+
+export const QueryListings = `
+  query GetListings($wallet: String) {
+    listings(where: {seller_address: {_eq: $address}, status: {_ne: 'sold_out'}}) {
+      seller_address
+      price
+      status
+      token {
+        name
+        artist_address
+        token_id
+        fa2_address
+        listings {
+          amount
+          seller_address
+          created_at
+          price
+          amount
+          amount_left
+        }
       }
     }
   }

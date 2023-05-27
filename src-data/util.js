@@ -1,6 +1,7 @@
 import dayjs from 'dayjs'
 import { toUSD, toEUR } from './xtz-historical.js'
 import { request, gql } from 'graphql-request'
+import fs from 'fs'
 
 let LOCALE = 'en-us'
 
@@ -39,6 +40,22 @@ export function toCSV(csv, delimiter) {
   return out
 }
 
+export function loadTzProfiles() {
+  if (fs.existsSync('./src-data/tzProfiles.json')) {
+    let data = JSON.parse(fs.readFileSync('./src-data/tzProfiles.json', 'utf-8'))
+    Object.keys(data).forEach((key) => {
+      tzProfiles[key] = data[key]
+    })
+
+    console.log('Loading tzProfiles... ', Object.keys(tzProfiles).length + ' profiles')
+  }
+}
+
+export function saveTzProfiles() {
+  console.log('Saving tzProfiles... ', Object.keys(tzProfiles).length + ' profiles')
+  fs.writeFileSync('./src-data/tzProfiles.json', JSON.stringify(tzProfiles))
+}
+
 export async function getUserInfo(tzprof) {
   return await request(
     TEZTOK_API,
@@ -58,15 +75,20 @@ export async function getUserInfo(tzprof) {
     response = response.tzprofiles
     if (response && response.length > 0)
       response.forEach((addr) => {
-        if (!tzProfiles[addr.account]) tzProfiles[addr.account] = { alias: addr.alias, twitter: addr.twitter }
+        if (!tzProfiles[addr.account])
+          tzProfiles[addr.account] = {
+            alias: addr.alias ? addr.alias : addr.account,
+            twitter: addr.twitter ? addr.twitter : addr.account,
+          }
       })
   })
 }
 
 export function getAlias(wallet) {
   if (!wallet) return wallet
-  if (tzProfiles[wallet]) return tzProfiles[wallet].twitter
-  else return wallet
+  if (tzProfiles[wallet]) {
+    return tzProfiles[wallet].twitter ? tzProfiles[wallet].twitter : tzProfiles[wallet].alias
+  } else return wallet
 }
 
 export function getTokenCSV(tokens, csvColumns) {
@@ -75,7 +97,7 @@ export function getTokenCSV(tokens, csvColumns) {
   tokens.events.forEach((ev) => {
     const row = []
     csvColumns.forEach((col) => {
-      if (col == AMOUNT) row.push(ev.amount)
+      if (col == AMOUNT) row.push(ev.amount ? ev.amount : 1)
       if (col == ARTIST) row.push(getAlias(ev.token[ARTIST])) // row.push(ev.token.artist_address)
       if (col == BUYER) row.push(getAlias(ev.buyer_address))
       if (col == EDITIONS) row.push(ev.token.editions)
@@ -85,10 +107,12 @@ export function getTokenCSV(tokens, csvColumns) {
       if (col == PLATFORM) row.push(ev.token.platform)
       if (col == PRICE) row.push(formatTz(ev.price))
       if (col == PRICE_EUR) row.push(toEUR(ev.timestamp, ev.price).toLocaleString(LOCALE))
-      if (col == NAME) row.push(ev.token.name)
+      if (col == NAME) row.push(clean(ev.token.name))
       if (col == URL) row.push(getTokenLink(ev.token))
       if (col == THUMBNAIL) row.push(ev.token.thumbnail_uri)
       if (col == SELLER) row.push(getAlias(ev.seller_address))
+      if (col == 'sales_volume') row.push(formatTz(ev.token.sales_volume))
+      if (col == 'royalties_total') row.push(nf(ev.token.royalties_total / 10000))
       if (col == TIME) row.push(dayjs(ev.timestamp).format(YYMMDDHHMM))
       if (col == TOKEN_ID) row.push(ev.token.token_id)
       if (col == TYPE) row.push(ev.type)
@@ -106,12 +130,23 @@ export function tzToUSD(date, amount) {
   return toUSD(date, amount)
 }
 
+export function clean(str, maxChar) {
+  if (!str) return '--'
+  str = str.replaceAll(/(\r\n|\n|\r)/gm, '')
+  if (str.length > maxChar) str = str.substring(0, maxChar)
+  return str
+}
+
 export function nf(str) {
   if (typeof str === 'number') str = str.toLocaleString(LOCALE)
   let pos = str.indexOf('.')
   if (pos < 0) pos = str.indexOf(',')
-  if (pos > 0 && pos < str.length - 2) str = str.substring(0, pos + 2)
-  return str
+  if (pos > 0 && str.length - pos > 3) {
+    str = str.substring(0, pos + 3)
+    console.log(`"${str}" +> "${str.substring(pos, pos + 3)}"`)
+  }
+
+  return str.replaceAll(' ', '')
 }
 
 export function formatTz(amount) {
@@ -119,9 +154,9 @@ export function formatTz(amount) {
   //   return '–'
   // }
 
-  const amountFixed = (amount / 1000000).toLocaleString(LOCALE)
-
-  return `${amountFixed.endsWith('00') ? amountFixed.slice(0, -3) : amountFixed}`
+  // let amountFixed = .toLocaleString(LOCALE).replaceAll(' ', '')
+  // amountFixed = `${amountFixed.endsWith('00') ? amountFixed.slice(0, -3) : amountFixed}`
+  return nf(amount / 1000000)
 }
 
 export function shortenTzAddress(address) {

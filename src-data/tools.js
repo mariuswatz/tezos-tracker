@@ -42,6 +42,7 @@ const csvColumns = [
   TOKEN_ID,
   PRICE,
   PRICE_EUR,
+  'sales_volume',
   AMOUNT,
   EDITIONS,
   NAME,
@@ -95,16 +96,23 @@ export async function getHoldings(wallet) {
   })
 
   await getUserInfo(users).then((response) => {
-    console.log('batch done', tzProfiles)
+    console.log('get profiles: ' + users.length)
   })
-
-  console.log('get profiles: ' + users.length)
 
   console.log('collects: ', collects.events ? collects.events.length : 'no events!')
   fs.writeFileSync(`output/${timeStr}-collects.csv`, toCSV(getTokenCSV(collects, csvColumns), '\t').join('\n'))
 
   await querySales(wallet).then((response) => {
     query = response
+  })
+
+  query.events.forEach((ev) => {
+    if (ev.seller_address && users.indexOf(ev.seller_address) < 0) users.push(ev.seller_address)
+    if (ev.buyer_address && users.indexOf(ev.buyer_address) < 0) users.push(ev.buyer_address)
+    if (ev.token[ARTIST] && users.indexOf(ev.token[ARTIST]) < 0) users.push(ev.token[ARTIST])
+  })
+  await getUserInfo(users).then((response) => {
+    console.log('Sales - get profiles: ' + users.length)
   })
 
   fs.writeFileSync(`output/${timeStr}-sales.json`, JSON.stringify(query))
@@ -128,24 +136,16 @@ export async function getHoldings(wallet) {
   console.log(`${otherSales.events.length} other sales`)
 
   if (primarySales.events.length > 0)
-    fs.writeFileSync(
-      `output/${timeStr}-sales-primary.csv`,
-      toCSV(getTokenCSV(primarySales, csvColumns), '\t').join('\n')
-    )
+    fs.writeFileSync(`output/sales-primary.csv`, toCSV(getTokenCSV(primarySales, csvColumns), '\t').join('\n'))
 
   if (secondarySales.events.length > 0)
-    fs.writeFileSync(
-      `output/${timeStr}-sales-secondary.csv`,
-      toCSV(getTokenCSV(secondarySales, csvColumns), '\t').join('\n')
-    )
+    fs.writeFileSync(`output/sales-secondary.csv`, toCSV(getTokenCSV(secondarySales, csvColumns), '\t').join('\n'))
 
   if (otherSales.events.length > 0) {
-    fs.writeFileSync(`output/${timeStr}-sales-other.csv`, toCSV(getTokenCSV(otherSales, csvColumns), '\t').join('\n'))
+    // fs.writeFileSync(`output/${timeStr}-sales-other.csv`, toCSV(getTokenCSV(otherSales, csvColumns), '\t').join('\n'))
 
     getSalesGains(collects, otherSales)
   }
-
-  console.log(tzProfiles)
 }
 
 export async function getSalesGains(collects, sales) {
@@ -189,7 +189,7 @@ export async function getSalesGains(collects, sales) {
         dayjs(collectEv.timestamp).format(YYMMDDHHMM),
         dayjs(ev.timestamp).format(YYMMDDHHMM),
         Math.ceil(dayjs(ev.timestamp).diff(dayjs(collectEv.timestamp), 'hours') / 24) + ' days',
-        formatTz(collectEv.price),
+        formatTz(collectEv.price).replace,
         nf(toEUR(collectEv.timestamp, collectEv.price)),
         formatTz(ev.price),
         nf(toEUR(ev.timestamp, ev.price)),
@@ -208,5 +208,5 @@ export async function getSalesGains(collects, sales) {
   console.log(' highest gain: ', formatTz(high), nf(highEur))
   console.log(' lowest gain: ', formatTz(low), nf(toEUR(low)))
 
-  fs.writeFileSync(`output/${timestamp()}-sales-diff.csv`, toCSV(diff, '\t').join('\n'))
+  fs.writeFileSync(`output/sales-diff.csv`, toCSV(diff, '\t').join('\n'))
 }

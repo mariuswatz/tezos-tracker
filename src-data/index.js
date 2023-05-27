@@ -5,16 +5,24 @@ import { getHoldings } from './tools.js'
 
 import fs from 'fs'
 import dayjs from 'dayjs'
-import { setLocale, getUserInfo, formatTz, getTokenLink, tzProfiles } from './util.js'
+import { setLocale, getUserInfo, formatTz, getTokenLink, tzProfiles, loadTzProfiles, saveTzProfiles } from './util.js'
 
 setLocale('no-NO')
 
 const YYMMDDHHMM = 'YYYYMMDD HH:mm'
 // const artistAddress = 'tz1TJeLZPhHFPfZqSFcxQrpbjU8C2SjwYnqF' //
-const artistAddress = 'tz2NY3Fgt5QufrYGP1JKdvLKcWWt86sLsqrS'
+const profiles = [
+  'tz2NY3Fgt5QufrYGP1JKdvLKcWWt86sLsqrS',
+  'tz1NgN7FCrSzs4vfMroKXyKE32WsReYD4WPd',
+  'tz1MH7vTRc4yXkttnoU93CYqiZfhEzk7C17a',
+  'tz1TSWEDs9wcBx2KiRzVzyzECsNpRiZaLJ1D',
+]
+const artistAddress = profiles[0]
 
-getUserInfo(['tz1TJeLZPhHFPfZqSFcxQrpbjU8C2SjwYnqF', 'tz2NY3Fgt5QufrYGP1JKdvLKcWWt86sLsqrS'])
-getHoldings(artistAddress)
+loadTzProfiles()
+getHoldings(artistAddress).then(() => {
+  saveTzProfiles()
+})
 
 // const QueryHoldings = `query getHoldings($holderAddress: String!) {
 //     holdings(where: {holder_address: {_eq: $holderAddress}, amount: {_gt: "0"}}, order_by: {last_received_at: desc}) {

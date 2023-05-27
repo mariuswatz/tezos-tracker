@@ -5,6 +5,7 @@ import dayjs from 'dayjs'
 
 import {
   formatTz,
+  tzProfiles,
   nf,
   getTokenLink,
   TEZTOK_API,
@@ -31,6 +32,7 @@ import {
   URL,
   THUMBNAIL,
   PRICE_EUR,
+  getUserInfo,
 } from './util.js'
 import { toEUR } from './xtz-historical.js'
 
@@ -85,6 +87,19 @@ export async function getHoldings(wallet) {
     collects = response
   })
 
+  let users = []
+  collects.events.forEach((ev) => {
+    if (ev.seller_address && users.indexOf(ev.seller_address) < 0) users.push(ev.seller_address)
+    if (ev.buyer_address && users.indexOf(ev.buyer_address) < 0) users.push(ev.buyer_address)
+    if (ev.token[ARTIST] && users.indexOf(ev.token[ARTIST]) < 0) users.push(ev.token[ARTIST])
+  })
+
+  await getUserInfo(users).then((response) => {
+    console.log('batch done', tzProfiles)
+  })
+
+  console.log('get profiles: ' + users.length)
+
   console.log('collects: ', collects.events ? collects.events.length : 'no events!')
   fs.writeFileSync(`output/${timeStr}-collects.csv`, toCSV(getTokenCSV(collects, csvColumns), '\t').join('\n'))
 
@@ -129,6 +144,8 @@ export async function getHoldings(wallet) {
 
     getSalesGains(collects, otherSales)
   }
+
+  console.log(tzProfiles)
 }
 
 export async function getSalesGains(collects, sales) {

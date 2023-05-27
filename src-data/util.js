@@ -1,5 +1,6 @@
 import dayjs from 'dayjs'
 import { toUSD, toEUR } from './xtz-historical.js'
+import { request, gql } from 'graphql-request'
 
 let LOCALE = 'en-us'
 
@@ -23,6 +24,8 @@ export const TOKEN_ID = 'token_id',
   TYPE = 'type',
   URL = 'url'
 
+export const tzProfiles = {}
+
 export function setLocale(localeStr) {
   LOCALE = localeStr
 }
@@ -36,6 +39,36 @@ export function toCSV(csv, delimiter) {
   return out
 }
 
+export async function getUserInfo(tzprof) {
+  return await request(
+    TEZTOK_API,
+    gql`
+      query GetUsers($addresses: [String]) {
+        tzprofiles(where: { account: { _in: $addresses } }) {
+          account
+          alias
+          twitter
+        }
+      }
+    `,
+    {
+      addresses: tzprof,
+    }
+  ).then((response) => {
+    response = response.tzprofiles
+    if (response && response.length > 0)
+      response.forEach((addr) => {
+        if (!tzProfiles[addr.account]) tzProfiles[addr.account] = { alias: addr.alias, twitter: addr.twitter }
+      })
+  })
+}
+
+export function getAlias(wallet) {
+  if (!wallet) return wallet
+  if (tzProfiles[wallet]) return tzProfiles[wallet].twitter
+  else return wallet
+}
+
 export function getTokenCSV(tokens, csvColumns) {
   let rows = [csvColumns]
 
@@ -43,8 +76,8 @@ export function getTokenCSV(tokens, csvColumns) {
     const row = []
     csvColumns.forEach((col) => {
       if (col == AMOUNT) row.push(ev.amount)
-      if (col == ARTIST) row.push(ev.token.artist_address)
-      if (col == BUYER) row.push(ev.buyer_address)
+      if (col == ARTIST) row.push(getAlias(ev.token[ARTIST])) // row.push(ev.token.artist_address)
+      if (col == BUYER) row.push(getAlias(ev.buyer_address))
       if (col == EDITIONS) row.push(ev.token.editions)
       if (col == FA2) row.push(ev.token.fa2_address)
       if (col == MINTER) row.push(ev.token.minter_address)
@@ -55,7 +88,7 @@ export function getTokenCSV(tokens, csvColumns) {
       if (col == NAME) row.push(ev.token.name)
       if (col == URL) row.push(getTokenLink(ev.token))
       if (col == THUMBNAIL) row.push(ev.token.thumbnail_uri)
-      if (col == SELLER) row.push(ev.seller_address)
+      if (col == SELLER) row.push(getAlias(ev.seller_address))
       if (col == TIME) row.push(dayjs(ev.timestamp).format(YYMMDDHHMM))
       if (col == TOKEN_ID) row.push(ev.token.token_id)
       if (col == TYPE) row.push(ev.type)

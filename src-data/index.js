@@ -5,13 +5,15 @@ import { getHoldings } from './tools.js'
 
 import fs from 'fs'
 import dayjs from 'dayjs'
-import { setLocale, formatTz, getTokenLink } from './util.js'
+import { setLocale, getUserInfo, formatTz, getTokenLink, tzProfiles } from './util.js'
 
 setLocale('no-NO')
 
 const YYMMDDHHMM = 'YYYYMMDD HH:mm'
+// const artistAddress = 'tz1TJeLZPhHFPfZqSFcxQrpbjU8C2SjwYnqF' //
 const artistAddress = 'tz2NY3Fgt5QufrYGP1JKdvLKcWWt86sLsqrS'
 
+getUserInfo(['tz1TJeLZPhHFPfZqSFcxQrpbjU8C2SjwYnqF', 'tz2NY3Fgt5QufrYGP1JKdvLKcWWt86sLsqrS'])
 getHoldings(artistAddress)
 
 // const QueryHoldings = `query getHoldings($holderAddress: String!) {
@@ -31,8 +33,7 @@ getHoldings(artistAddress)
 
 async function getCreations() {
   return await request(TEZTOK_API, QueryGetCreations, {
-    artistAddress: 'tz2NY3Fgt5QufrYGP1JKdvLKcWWt86sLsqrS',
-    // holderAddress: 'tz2NY3Fgt5QufrYGP1JKdvLKcWWt86sLsqrS',
+    artistAddress: artistAddress,
   })
 }
 

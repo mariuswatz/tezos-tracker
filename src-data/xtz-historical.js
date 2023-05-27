@@ -17,15 +17,15 @@ export function toEUR(date, value) {
   if (!xtzeur) xtzeur = parseHistorical('src-data/XTZ-EUR.csv')
 
   let day = dayjs(date)
-  date = dayjs(date).format('YYYY-MM-DD')
+  let dateId = day.format('YYYY-MM-DD')
 
   value /= 1000000
-  if (xtzeur[date]) return xtzeur[date] * value
+  if (xtzeur[dateId]) return xtzeur[dateId] * value
 
   let list = Object.keys(xtzeur)
   let lastDate = dayjs(list[list.length - 1])
   let firstDate = dayjs(list[0])
-  console.log(`Today ${date} - last in list: ${lastDate.format('YYYY-MM-DD')}`)
+  console.log(`Today ${dateId} - last in list: ${lastDate.format('YYYY-MM-DD')}`)
   if (day.isAfter(lastDate)) return xtzeur[list[list.length - 1]] * value
 
   return -1

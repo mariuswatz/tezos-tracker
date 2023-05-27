@@ -68,7 +68,6 @@ export const QuerySales = `
         artist_address
         minter_address
         token_id
-        mime_type
         name
         royalties_total
         sales_volume		
@@ -81,7 +80,7 @@ export const QuerySales = `
 `
 
 export const QueryCollects = `
-  query getSales($wallet: String!) {
+  query getCollects($wallet: String!) {
     events(
       where: { implements: { _eq: "SALE" }, buyer_address: { _eq: $wallet } }
       order_by: { timestamp: asc }
@@ -97,7 +96,6 @@ export const QueryCollects = `
         platform
         fa2_address
         token_id
-        mime_type
         name
         editions
         thumbnail_uri

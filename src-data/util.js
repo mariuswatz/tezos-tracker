@@ -19,6 +19,7 @@ export const TOKEN_ID = 'token_id',
   PLATFORM = 'platform',
   PRICE = 'price',
   PRICE_EUR = 'price_eur',
+  ROYALTY = 'royalties_total',
   SELLER = 'seller_address',
   THUMBNAIL = 'thumbnail_uri',
   TIME = 'time',
@@ -41,7 +42,7 @@ export function toCSV(csv, delimiter) {
 }
 
 export function loadTzProfiles() {
-  if (fs.existsSync('./src-data/tzProfiles.json')) {
+  if (fs.existsSync('./output/tzProfiles.json')) {
     let data = JSON.parse(fs.readFileSync('./src-data/tzProfiles.json', 'utf-8'))
     Object.keys(data).forEach((key) => {
       tzProfiles[key] = data[key]
@@ -52,12 +53,16 @@ export function loadTzProfiles() {
 }
 
 export function saveTzProfiles() {
-  console.log('Saving tzProfiles... ', Object.keys(tzProfiles).length + ' profiles')
-  fs.writeFileSync('./src-data/tzProfiles.json', JSON.stringify(tzProfiles))
+  if (!fs.existsSync('./output'))
+    fs.mkdir('./output/', () => {
+      console.log('mkdir output')
+    })
+  console.log('\nSaving tzProfiles... ', Object.keys(tzProfiles).length + ' profiles')
+  fs.writeFileSync('./output/tzProfiles.json', JSON.stringify(tzProfiles))
 }
 
 export async function getUserInfo(tzprof) {
-  return await request(
+  await request(
     TEZTOK_API,
     gql`
       query GetUsers($addresses: [String]) {
@@ -81,6 +86,7 @@ export async function getUserInfo(tzprof) {
             twitter: addr.twitter ? addr.twitter : addr.account,
           }
       })
+    console.log(`getUserInfo - ${Object.keys(tzProfiles).length} aliases`)
   })
 }
 
@@ -106,13 +112,23 @@ export function getTokenCSV(tokens, csvColumns) {
       if (col == OPHASH) row.push(ev.ophash)
       if (col == PLATFORM) row.push(ev.token.platform)
       if (col == PRICE) row.push(formatTz(ev.price))
-      if (col == PRICE_EUR) row.push(toEUR(ev.timestamp, ev.price).toLocaleString(LOCALE))
+      if (col == PRICE_EUR) row.push(nf(toEUR(ev.timestamp, ev.price)))
       if (col == NAME) row.push(clean(ev.token.name))
       if (col == URL) row.push(getTokenLink(ev.token))
       if (col == THUMBNAIL) row.push(ev.token.thumbnail_uri)
       if (col == SELLER) row.push(getAlias(ev.seller_address))
       if (col == 'sales_volume') row.push(formatTz(ev.token.sales_volume))
-      if (col == 'royalties_total') row.push(nf(ev.token.royalties_total / 10000))
+      if (col == ROYALTY) row.push(nf(ev.token.royalties_total / 10000))
+      if (col == 'royalty_paid') {
+        if (ev.token[SELLER] != ev.token[ARTIST]) {
+          row.push(formatTz(ev.price * (0.01 * (ev.token[ROYALTY] / 10000))))
+        } else row.push('')
+      }
+      if (col == 'royalty_paid_eur') {
+        if (ev.token[SELLER] != ev.token[ARTIST]) {
+          row.push(nf(toEUR(ev.timestamp, ev.price * (0.01 * (ev.token[ROYALTY] / 10000)))))
+        } else row.push('')
+      }
       if (col == TIME) row.push(dayjs(ev.timestamp).format(YYMMDDHHMM))
       if (col == TOKEN_ID) row.push(ev.token.token_id)
       if (col == TYPE) row.push(ev.type)
@@ -138,24 +154,14 @@ export function clean(str, maxChar) {
 }
 
 export function nf(str) {
-  if (typeof str === 'number') str = str.toLocaleString(LOCALE)
-  let pos = str.indexOf('.')
-  if (pos < 0) pos = str.indexOf(',')
-  if (pos > 0 && str.length - pos > 3) {
-    str = str.substring(0, pos + 3)
-    console.log(`"${str}" +> "${str.substring(pos, pos + 3)}"`)
-  }
+  let out = str
+  if (typeof str === 'number') out = str.toLocaleString(LOCALE, { maximumFractionDigits: 2 })
+  else console.log(`not number? '${str}'`)
 
-  return str.replaceAll(' ', '')
+  return out.replaceAll(' ', '').replaceAll('-', '-')
 }
 
 export function formatTz(amount) {
-  // if (!isNumber(amount)) {
-  //   return '–'
-  // }
-
-  // let amountFixed = .toLocaleString(LOCALE).replaceAll(' ', '')
-  // amountFixed = `${amountFixed.endsWith('00') ? amountFixed.slice(0, -3) : amountFixed}`
   return nf(amount / 1000000)
 }
 

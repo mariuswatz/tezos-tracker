@@ -38,17 +38,21 @@ const QuerySalesString = `query getSales {
         buyer_address
         price
         token {
-        fa2_address
-        token_id
-        name
+          fa2_address
+
+          minter_address
+          token_id
+          name
         }
     }
 }`
 
+//
+
 export const QuerySales = `
   query getSales($wallet: String!) {
     events(
-      where: { implements: { _eq: "SALE" }, seller_address: { _eq: $wallet } }
+      where: { implements: { _eq: "SALE" }, _or: [{seller_address: { _eq: $wallet }},{artist_address: { _eq: $wallet }}] }
       order_by: { timestamp: asc }
     ) {
       ophash
@@ -56,10 +60,13 @@ export const QuerySales = `
       timestamp
       seller_address
       buyer_address
+      amount      
       price
       token {
         platform
         fa2_address
+        artist_address
+        minter_address
         token_id
         mime_type
         name
@@ -82,6 +89,7 @@ export const QueryCollects = `
       timestamp
       seller_address
       buyer_address
+      artist_address
       price
       token {
         platform
@@ -92,6 +100,32 @@ export const QueryCollects = `
         editions
         thumbnail_uri
         fx_collection_thumbnail_uri
+      }
+    }
+  }
+`
+
+export const QueryRecentSales = gql`
+  query getTokensWithRecentSale($holderAddress: String!) {
+    holdings(
+      where: {
+        holder_address: { _eq: $holderAddress }
+        amount: { _gt: "0" }
+        token: { last_sale_at: { _gte: "2023-01-01" } }
+      }
+      order_by: { last_received_at: desc }
+    ) {
+      amount
+      last_received_at
+      token {
+        token_id
+        fa2_address
+        platform
+        name
+        description
+        price
+        last_sale_at
+        last_sales_price
       }
     }
   }

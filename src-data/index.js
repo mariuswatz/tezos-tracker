@@ -1,42 +1,18 @@
 const TEZTOK_API = 'https://api.teztok.com/v1/graphql'
 import { request, gql } from 'graphql-request'
 import { QueryGetCreations } from './query.js'
-import { getHoldings } from './sales.js'
+import { getHoldings } from './tools.js'
 
 import fs from 'fs'
 import dayjs from 'dayjs'
-import { formatTz, getTokenLink } from './util.js'
+import { setLocale, formatTz, getTokenLink } from './util.js'
+
+setLocale('no-NO')
 
 const YYMMDDHHMM = 'YYYYMMDD HH:mm'
 const artistAddress = 'tz2NY3Fgt5QufrYGP1JKdvLKcWWt86sLsqrS'
 
 getHoldings(artistAddress)
-
-const TezosQuery = gql`
-  query getCreations($artistAddress: String!) {
-    tokens(where: { artist_address: { _eq: $artistAddress } }, order_by: { minted_at: desc }) {
-      token_id
-      fa2_address
-      platform
-      name
-      description
-      price
-      editions
-      listings {
-        amount
-        amount_left
-        price
-        seller_address
-        seller_profile {
-          twitter
-        }
-      }
-
-      minted_at
-      artifact_uri
-    }
-  }
-`
 
 // const QueryHoldings = `query getHoldings($holderAddress: String!) {
 //     holdings(where: {holder_address: {_eq: $holderAddress}, amount: {_gt: "0"}}, order_by: {last_received_at: desc}) {
@@ -53,49 +29,10 @@ const TezosQuery = gql`
 //     }
 // }`
 
-const QueryHoldings = gql`
-  query getTokensWithRecentSale($holderAddress: String!) {
-    holdings(
-      where: {
-        holder_address: { _eq: $holderAddress }
-        amount: { _gt: "0" }
-        token: { last_sale_at: { _gte: "2023-01-01" } }
-      }
-      order_by: { last_received_at: desc }
-    ) {
-      amount
-      last_received_at
-      token {
-        token_id
-        fa2_address
-        platform
-        name
-        description
-        price
-        last_sale_at
-        last_sales_price
-      }
-    }
-  }
-`
-
-async function getTokens(tags, orderColumn, platform, limit) {
-  return await request(TEZTOK_API, TezosQuery, {
-    artistAddress: 'tz2NY3Fgt5QufrYGP1JKdvLKcWWt86sLsqrS',
-    // holderAddress: 'tz2NY3Fgt5QufrYGP1JKdvLKcWWt86sLsqrS',
-  })
-}
-
 async function getCreations() {
   return await request(TEZTOK_API, QueryGetCreations, {
     artistAddress: 'tz2NY3Fgt5QufrYGP1JKdvLKcWWt86sLsqrS',
     // holderAddress: 'tz2NY3Fgt5QufrYGP1JKdvLKcWWt86sLsqrS',
-  })
-}
-
-async function getHoldings(wallet) {
-  return await request(TEZTOK_API, QueryCollects, {
-    holderAddress: wallet,
   })
 }
 
@@ -164,22 +101,3 @@ function getAllSales(tokens) {
 
   console.log('exit')
 }
-
-// getCreations().then((response) => {
-//   const createdCnt = response.tokens.length
-//   tokens = response
-//   console.log('QueryGetCreations - Success. ' + createdCnt + ' creations')
-//   fs.writeFileSync('output/creations.json', JSON.stringify(response))
-
-//   getAllSales(tokens)
-// })
-
-// getTokens().then((response) => {
-//   console.log('Success.')
-//   fs.writeFileSync('output/tokens.json', JSON.stringify(response))
-// })
-
-// getHoldings().then((response) => {
-//   console.log('Success.')
-//   fs.writeFileSync('output/sales.json', JSON.stringify(response))
-// })

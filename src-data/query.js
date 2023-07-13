@@ -1,6 +1,12 @@
 import { request, gql } from 'graphql-request'
 
-const TEZTOK_API = 'https://api.teztok.com/v1/graphql'
+export const TEZTOK_API = 'https://api.teztok.com/v1/graphql'
+
+export const QueryTeiaNameForAddress = `query GetNameForAddress($address: String!) {
+  teia_users(where: {user_address: {_eq: $address}}) {
+    name
+  }
+}`
 
 export const QueryGetCreations = gql`
   query getCreations($artistAddress: String!) {
@@ -39,7 +45,6 @@ const QuerySalesString = `query getSales {
         price
         token {
           fa2_address
-
           minter_address
           token_id
           name
@@ -90,16 +95,22 @@ export const QueryCollects = `
       timestamp
       seller_address
       buyer_address
-      artist_address
       price
       token {
         platform
         fa2_address
+        artist_address
+        minter_address
         token_id
         name
+        royalties_total
+        sales_volume		
         editions
         thumbnail_uri
         fx_collection_thumbnail_uri
+        tags {
+            tag
+        }
       }
     }
   }
@@ -116,6 +127,9 @@ export const QueryListings = `
         artist_address
         token_id
         fa2_address
+         tags {
+            tag
+        }
         listings {
           amount
           seller_address
@@ -124,6 +138,61 @@ export const QueryListings = `
           amount
           amount_left
         }
+      }
+    }
+  }
+`
+
+export const QueryActiveListings = `query activeListings($wallet: String!) {
+  listings(where: {seller_address: {_eq: $wallet}, token: {artist_address: {_eq: $wallet}}, status:{_eq:"active"} amount_left: {_gt: 0}}, order_by: {created_at: asc}) {
+    status
+    created_at
+    price
+    amount
+    amount_left
+    type
+    token {
+      platform
+      fa2_address
+      artist_address
+      token_id
+      name
+      editions
+      price
+      last_sale_at
+      last_sales_price
+      lowest_sales_price
+      sales_volume
+    }
+  }
+}`
+
+export const QueryHoldings = gql`
+  query getHoldings($wallet: String!) {
+    holdings(
+      where: { holder_address: { _eq: $wallet }, amount: { _gt: "1" }, token: { artist_address: { _neq: $wallet } } }
+      order_by: { last_received_at: desc }
+    ) {
+      amount
+      last_received_at
+      token {
+        platform
+        fa2_address
+        artist_address
+        minter_address
+        token_id
+        price
+        last_sale_at
+        last_sales_price
+        name
+        royalties_total
+        sales_volume
+        editions
+        tags {
+          tag
+        }
+        thumbnail_uri
+        fx_collection_thumbnail_uri
       }
     }
   }
@@ -155,6 +224,59 @@ export const QueryRecentSales = gql`
   }
 `
 
+export const QueryHoldingsByTag = gql`
+  query getHoldingsByTag($wallet: String!, $tag: String!) {
+    holdings(
+      where: { holder_address: { _eq: $wallet }, token: { tags: { tag: { _eq: $tag } } } }
+      order_by: { last_received_at: desc }
+    ) {
+      last_received_at
+      token {
+        name
+        fa2_address
+        token_id
+        artist_address
+        artist_profile {
+          twitter
+          alias
+        }
+        tags {
+          tag
+        }
+      }
+    }
+  }
+`
+
+export const QueryCollectsWithTag = gql`
+  query getSaleStats($wallet: String!, $date1: timestamptz!, $date2: timestamptz!, $tag: String!) {
+    events(
+      where: {
+        implements: { _eq: "SALE" }
+        buyer_address: { _eq: $wallet }
+        timestamp: { _gte: $date1, _lt: $date2 }
+        token: { tags: { tag: { _eq: $tag } } }
+      }
+    ) {
+      timestamp
+      price
+      seller_address
+      seller_profile {
+        alias
+        twitter
+      }
+      token {
+        name
+        fa2_address
+        token_id
+        tags {
+          tag
+        }
+      }
+    }
+  }
+`
+
 async function execQuery(query) {
   return await request(TEZTOK_API, query, {})
 }
@@ -174,6 +296,113 @@ const getSales = (tokens) => {
 
   return execQuery(query)
 }
+
+/* aggregate events:
+
+
+"""
+Copy the following GraphQL query into the TezTok API Explorer at
+https://graphiql.teztok.com/
+
+Fill out the wallet, date1 and date2 parameters with the Tezos address 
+and  date range you're interested in. The output combines events() and 
+events_aggregate() query to give you a quick overview over sales and buys
+over the time period.
+
+{
+  "wallet":  "tz2NY3Fgt5QufrYGP1JKdvLKcWWt86sLsqrS",
+  "date1": "2023-06-01",
+  "date2": "2023-07-01"
+}tz1dFcfEbAb9abXBEXERV4uMv48e4x17MuBb
+"""
+
+query getSaleStats($wallet: String!, $date1: timestamptz!, $date2: timestamptz!) {
+  buys: events_aggregate(where: {implements: {_eq: "SALE"}, buyer_address: {_eq: $wallet}, timestamp: {_gte: $date1, _lt: $date2}}, order_by: {price: asc}) {
+    aggregate {
+      sum {
+        price
+      }
+      count(columns: timestamp)
+      max {
+        price
+        timestamp
+      }
+      min {
+        price
+        timestamp
+      }
+    }
+    nodes {
+      timestamp
+      price
+      seller_address
+      seller_profile {
+        alias
+        twitter
+      }
+      token {
+        name
+        fa2_address
+        token_id
+      }
+    }
+  }
+  sales: events_aggregate(where: {implements: {_eq: "SALE"}, seller_address: {_eq: $wallet}, timestamp: {_gte: $date1, _lt: $date2}}, order_by: {price: asc}) {
+    aggregate {
+      sum {
+        price
+      }
+      count(columns: timestamp)
+      max {
+        price
+        timestamp
+      }
+      min {
+        price
+        timestamp
+      }
+    }
+    nodes {
+      timestamp
+      price
+      buyer_address
+      buyer_profile {
+        alias
+        twitter
+      }
+      token {
+        name
+        fa2_address
+        token_id
+      }
+    }
+  }
+  events(where: {implements: {_eq: "SALE"}, _or: [{seller_address: {_eq: $wallet}}, {buyer_address: {_eq: $wallet}}], timestamp: {_gte: $date1, _lt: $date2}}, order_by: {price: asc}) {
+    timestamp
+    type
+    token_id
+    price
+    buyer_address
+    buyer_profile {
+      alias
+      twitter
+    }
+    seller_address
+    seller_profile {
+      alias
+      twitter
+    }
+    token {
+      artist_address
+      name
+      fa2_address
+      token_id
+    }
+  }
+}
+
+
+*/
 /*
 
 getCreations, getSales

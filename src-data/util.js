@@ -2,31 +2,11 @@ import dayjs from 'dayjs'
 import { toUSD, toEUR } from './xtz-historical.js'
 import { request, gql } from 'graphql-request'
 import fs from 'fs'
+import * as TEZ from './constants.js'
 
 let LOCALE = 'en-us'
 
-export const TEZTOK_API = 'https://api.teztok.com/v1/graphql'
-export const YYMMDDHHMM = 'YYYYMMDD-HHmm'
-export const TOKEN_ID = 'token_id',
-  AMOUNT = 'amount',
-  ARTIST = 'artist_address',
-  BUYER = 'buyer_address',
-  EDITIONS = 'editions',
-  FA2 = 'fa2_address',
-  MINTER = 'minter_address',
-  NAME = 'name',
-  OPHASH = 'ophash',
-  PLATFORM = 'platform',
-  PRICE = 'price',
-  PRICE_EUR = 'price_eur',
-  ROYALTY = 'royalties_total',
-  SELLER = 'seller_address',
-  THUMBNAIL = 'thumbnail_uri',
-  TIME = 'time',
-  TYPE = 'type',
-  URL = 'url'
-
-export const tzProfiles = {}
+export const dataSet = { tzProfiles: {} }
 
 export function setLocale(localeStr) {
   LOCALE = localeStr
@@ -34,21 +14,44 @@ export function setLocale(localeStr) {
 
 export function toCSV(csv, delimiter) {
   let out = []
-  csv.forEach((row) => {
-    out.push(row.join(delimiter))
+
+  const cols = csv.columns
+  csv.rows.forEach((row) => {
+    const arr = []
+    cols.forEach((str) => {
+      arr.push(row[str] ? row[str] : '')
+    })
+    out.push(arr.join(delimiter))
   })
 
   return out
 }
 
 export function loadTzProfiles() {
+  let TEIA_USERS_FILE = './src-data/20230423-teia-users-short.tsv'
+
+  if (fs.existsSync(TEIA_USERS_FILE)) {
+    const teiaUsers = {}
+
+    const TAB = '\t'
+    let data = fs.readFileSync(TEIA_USERS_FILE, 'utf-8').split('\n')
+    data.shift(0)
+    data.forEach((ln) => {
+      let user = ln.split(TAB)
+      if (user[2]) teiaUsers[user[2]] = { alias: user[0], twitter: user[1] }
+    })
+
+    console.log(`Teia users: ${Object.keys(teiaUsers).length}`)
+    dataSet.teiaUsers = teiaUsers
+  }
+
   if (fs.existsSync('./output/tzProfiles.json')) {
     let data = JSON.parse(fs.readFileSync('./output/tzProfiles.json', 'utf-8'))
     Object.keys(data).forEach((key) => {
-      tzProfiles[key] = data[key]
+      dataSet.tzProfiles[key] = data[key]
     })
 
-    console.log('Loading tzProfiles... ', Object.keys(tzProfiles).length + ' profiles')
+    console.log('Loading tzProfiles... ', Object.keys(dataSet.tzProfiles).length + ' profiles')
   }
 }
 
@@ -57,13 +60,13 @@ export function saveTzProfiles() {
     fs.mkdir('./output/', () => {
       console.log('mkdir output')
     })
-  console.log('\nSaving tzProfiles... ', Object.keys(tzProfiles).length + ' profiles')
-  fs.writeFileSync('./output/tzProfiles.json', JSON.stringify(tzProfiles))
+  console.log('\nSaving tzProfiles... ', Object.keys(dataSet.tzProfiles).length + ' profiles')
+  fs.writeFileSync('./output/tzProfiles.json', JSON.stringify(dataSet.tzProfiles))
 }
 
 export async function getUserInfo(tzprof) {
   await request(
-    TEZTOK_API,
+    TEZ.TEZTOK_API,
     gql`
       query GetUsers($addresses: [String]) {
         tzprofiles(where: { account: { _in: $addresses } }) {
@@ -77,13 +80,14 @@ export async function getUserInfo(tzprof) {
       addresses: tzprof,
     }
   ).then((response) => {
+    let tzProfiles = dataSet.tzProfiles
     response = response.tzprofiles
     if (response && response.length > 0)
       response.forEach((addr) => {
         if (!tzProfiles[addr.account])
           tzProfiles[addr.account] = {
-            alias: addr.alias ? addr.alias : addr.account,
-            twitter: addr.twitter ? addr.twitter : addr.account,
+            alias: addr.alias ? addr.alias : '',
+            twitter: addr.twitter ? addr.twitter : '',
           }
       })
     console.log(`getUserInfo - ${Object.keys(tzProfiles).length} aliases`)
@@ -92,9 +96,17 @@ export async function getUserInfo(tzprof) {
 
 export function getAlias(wallet) {
   if (!wallet) return wallet
-  if (tzProfiles[wallet]) {
-    return tzProfiles[wallet].twitter ? tzProfiles[wallet].twitter : tzProfiles[wallet].alias
-  } else return wallet
+
+  let teiaUser = dataSet.teiaUsers[wallet] ? dataSet.teiaUsers[wallet] : undefined
+  let user = dataSet.tzProfiles[wallet] ? dataSet.tzProfiles[wallet] : undefined
+  const options = []
+  if (user && user.alias) options.push(user.alias)
+  if (teiaUser && teiaUser.alias) options.push(teiaUser.alias)
+  if (user && user.twitter) options.push(user.twitter)
+  if (teiaUser && teiaUser.twitter) options.push(teiaUser.twitter)
+  options.push(shortenTzAddress(wallet))
+
+  return options[0]
 }
 
 export function calcRoyaltyPayment(sale, inEuro = false) {
@@ -106,47 +118,81 @@ export function calcRoyaltyPayment(sale, inEuro = false) {
   return inEuro ? toEUR(sale.timestamp, royalty) : royalty
 }
 
+export function mapValue(type, row) {
+  let fieldType = TEZ.CSV_TYPES[type] ? TEZ.CSV_TYPES[type] : TEZ.STRING
+  // if(fieldType==TEZ.FIAT && row[type]) {
+  //   return
+  // }
+  return row[type]
+}
+
+export function processRow(row) {
+  const keys = Object.keys(row)
+  keys.forEach((key) => {
+    if (!row[key]) console.log(`${key} has no value`)
+    else {
+      row[key] = mapValue(key, row)
+    }
+  })
+}
+
 export function getTokenCSV(tokens, csvColumns) {
+  let csv = { columns: csvColumns }
   let rows = [csvColumns]
 
   tokens.events.forEach((ev) => {
-    const row = []
+    const row = {}
     csvColumns.forEach((col) => {
-      if (col == AMOUNT) row.push(ev.amount ? ev.amount : 1)
-      if (col == ARTIST) row.push(getAlias(ev.token[ARTIST]))
-      if (col == BUYER) row.push(getAlias(ev.buyer_address))
-      if (col == EDITIONS) row.push(ev.token.editions)
-      if (col == FA2) row.push(ev.token.fa2_address)
-      if (col == MINTER) row.push(ev.token.minter_address)
-      if (col == OPHASH) row.push(ev.ophash)
-      if (col == PLATFORM) row.push(ev.token.platform)
-      if (col == PRICE) row.push(formatTz(ev.price))
-      if (col == PRICE_EUR) row.push(nf(toEUR(ev.timestamp, ev.price)))
-      if (col == NAME) row.push(clean(ev.token.name))
-      if (col == URL) row.push(getTokenLink(ev.token))
-      if (col == THUMBNAIL) row.push(ev.token.thumbnail_uri)
-      if (col == SELLER) row.push(getAlias(ev.seller_address))
-      if (col == 'sales_volume') row.push(formatTz(ev.token.sales_volume))
-      if (col == ROYALTY) row.push(nf(ev.token.royalties_total / 10000))
-      if (col == 'royalty_paid') {
-        let paid = calcRoyaltyPayment(ev)
-        row.push(paid ? formatTz(paid) : '')
+      let val = '-'
+      try {
+        if (col == AMOUNT) row[TEZ.AMOUNT] = ev.amount ? ev.amount : 1
+        if (col == TEZ.ARTIST) row[TEZ.ARTIST] = getAlias(ev.token[ARTIST])
+        if (col == TEZ.BUYER && ev.buyer_address) row[TEZ.BUYER] = getAlias(ev.buyer_address)
+        if (col == TEZ.EDITIONS) row[col] = ev.token.editions
+        if (col == TEZ.FA2) row[col] = ev.token.fa2_address
+        if (col == TEZ.MINTER && ev.token.minter_address) row[col] = ev.token[TEZ.MINTER]
+        if (col == TEZ.OPHASH) row[col] = ev.ophash
+        if (col == TEZ.PLATFORM) row[col] = ev.token.platform
+        if (col == TEZ.LAST_SALE_AT && ev.token[LAST_SALE_AT]) row[col] = ev.token[LAST_SALE_AT]
+        if (col == TEZ.LAST_SALES_PRICE && ev.token[LAST_SALES_PRICE])
+          row[col] = {
+            price: ev.token[LAST_SALES_PRICE],
+            timestamp: ev.token[TEZ.LAST_SALE_AT],
+          }
+        if (col == TEZ.LAST_SALES_PRICE_EUR && ev.token[LAST_SALES_PRICE]) row[col] = ev.token[LAST_SALES_PRICE]
+        if (col == TEZ.PRICE && ev.price) row[col] = ev.price
+        if (col == TEZ.PRICE_EUR && ev.price) row[col] = ev.price
+        if (col == TEZ.NAME) row[col] = clean(ev.token.name)
+        if (col == TEZ.URL) row[col] = getTokenLink(ev.token)
+        if (col == TEZ.THUMBNAIL) row[col] = ev.token.thumbnail_uri ? ev.token.thumbnail_uri : ''
+        if (col == TEZ.SELLER && ev[TEZ.SELLER]) row[col] = ev[TEZ.SELLER]
+        if (col == TEZ.SALES_VOLUME && ev.token[TEZ.SALES_VOLUME]) row[col] = ev.token[TEZ.SALES_VOLUME]
+        if (col == ROYALTY && ev.token[TEZ.ROYALTY]) row[col] = ev.token[TEZ.ROYALTY] / 10000
+        // if (col == 'royalty_paid' && ev.token[ROYALTY]) {
+        //   let paid = calcRoyaltyPayment(ev)
+        //   row[col] =paid ? formatTz(paid) : ''
+        // }
+        // if (col == 'royalty_paid_eur' && ev.token[ROYALTY]) {
+        //   let paid = calcRoyaltyPayment(ev, true)
+        //   row[col] =paid ? formatTz(paid) : ''
+        // }
+        if (col == TEZ.TIME) row[TEZ.TIME] = ev.timestamp
+        if (col == TEZ.TOKEN_ID) row[TEZ.TOKEN_ID] = ev.token.token_id
+        if (col == TEZ.TYPE) row[TEZ.TYPE] = ev.type
+      } catch (e) {
+        val = 'err'
       }
-      if (col == 'royalty_paid_eur') {
-        let paid = calcRoyaltyPayment(ev, true)
-        row.push(paid ? formatTz(paid) : '')
-      }
-      if (col == TIME) row.push(dayjs(ev.timestamp).format(YYMMDDHHMM))
-      if (col == TOKEN_ID) row.push(ev.token.token_id)
-      if (col == TYPE) row.push(ev.type)
     })
     rows.push(row)
   })
-  return rows
+
+  csv.rows = rows
+
+  return csv
 }
 
 export function timestamp() {
-  return dayjs().format(YYMMDDHHMM)
+  return dayjs().format(TEZ.YYMMDDHHMM)
 }
 
 export function tzToUSD(date, amount) {
@@ -176,6 +222,10 @@ export function formatTz(amount) {
 
 export function shortenTzAddress(address) {
   return `${address.substr(0, 5)}…${address.substr(-5)}`
+}
+
+export function tokenIdent(token) {
+  return `${token[FA2]}/${token.token_id}`
 }
 
 export function getTokenLink(token) {
